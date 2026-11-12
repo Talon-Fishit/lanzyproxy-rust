@@ -61,6 +61,19 @@ The spoofer needs port 80, which on Windows means running as administrator.
 | `lzproxy` | the HTTP spoofer and the ENet relay |
 | `lanzyproxy` | the binary |
 
+## The dialog preview
+
+`lzdialog` builds the markup the game renders as an in-game dialog. To see
+what that looks like, open [`reference/dialog-preview/index.html`](reference/dialog-preview/index.html)
+in a browser: the picker chooses a dialog, the left pane holds the raw markup
+and the right pane shows the result. The left pane is editable, so a change
+to the builder shows up as soon as you reload.
+
+The directive set it renders is not a guess. Static analysis of the reference
+build found all twenty-eight directives in its strings, and
+[`reference/dialog-directives.json`](reference/dialog-directives.json) records
+each one with the arguments it takes.
+
 ## Commands
 
 67 commands, 596 aliases. `/proxy` lists them in the game; `--list` prints them
