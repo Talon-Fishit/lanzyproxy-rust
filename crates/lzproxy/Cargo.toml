@@ -1,0 +1,15 @@
+[package]
+name = "lzproxy"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "LanzyProxy ENet relay and HTTP spoofer"
+
+[dependencies]
+lzprotocol = { workspace = true }
+lzconfig = { workspace = true }
+lzstate = { workspace = true }
+lzfeatures = { workspace = true }
+serde_json = { workspace = true }
+enet = "0.3.0"

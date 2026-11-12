@@ -1,0 +1,9 @@
+# Build output
+/target
+/dist
+config.json
+
+# Editor
+.idea
+*.iml
+.vscode

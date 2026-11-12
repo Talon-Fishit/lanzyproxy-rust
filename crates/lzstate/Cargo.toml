@@ -1,0 +1,10 @@
+[package]
+name = "lzstate"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "LanzyProxy runtime state: world, tiles, players, tracked objects"
+
+[dependencies]
+serde_json = { workspace = true }

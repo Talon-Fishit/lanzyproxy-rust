@@ -1,0 +1,9 @@
+[package]
+name = "lzprotocol"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Growtopia NetMessage / GameUpdatePacket / VariantList wire format"
+
+[dependencies]

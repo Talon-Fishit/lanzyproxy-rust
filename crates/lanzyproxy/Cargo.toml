@@ -1,0 +1,20 @@
+[package]
+name = "lanzyproxy"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Growtopia proxy with an in-game command set"
+
+[[bin]]
+name = "lanzyproxy"
+path = "src/main.rs"
+
+[dependencies]
+lzprotocol = { workspace = true }
+lzconfig = { workspace = true }
+lzstate = { workspace = true }
+lzdialog = { workspace = true }
+lzfeatures = { workspace = true }
+lzproxy = { workspace = true }
+serde_json = { workspace = true }

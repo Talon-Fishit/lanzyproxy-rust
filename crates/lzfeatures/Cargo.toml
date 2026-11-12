@@ -1,0 +1,14 @@
+[package]
+name = "lzfeatures"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "LanzyProxy in-game command set"
+
+[dependencies]
+lzprotocol = { workspace = true }
+lzconfig = { workspace = true }
+lzstate = { workspace = true }
+lzdialog = { workspace = true }
+serde_json = { workspace = true }

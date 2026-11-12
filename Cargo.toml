@@ -1,0 +1,36 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/lzprotocol",
+    "crates/lzconfig",
+    "crates/lzstate",
+    "crates/lzdialog",
+    "crates/lzfeatures",
+    "crates/lzproxy",
+    "crates/lanzyproxy",
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.75"
+license = "MIT"
+repository = "https://github.com/Talon-Fishit/lanzyproxy"
+
+[workspace.dependencies]
+lzprotocol = { path = "crates/lzprotocol" }
+lzconfig = { path = "crates/lzconfig" }
+lzstate = { path = "crates/lzstate" }
+lzdialog = { path = "crates/lzdialog" }
+lzfeatures = { path = "crates/lzfeatures" }
+lzproxy = { path = "crates/lzproxy" }
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
