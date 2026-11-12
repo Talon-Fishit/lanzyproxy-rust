@@ -112,13 +112,31 @@ $ python3 scripts/compare_with_reference.py path/to/reference.exe
   aliases             296 / 296   OK
   dialog directives    30 / 30    OK
   server_data fields    9 / 9      OK
-  options menu         17 / 17     OK
+  options menu         17 / 17
+  upstream           www.growtopia1.com:17725
 ```
 
 Five commands are extra: `anti`, `options`, `roulette`, `showspin` and
 `status`. The reference exposes the roulette pages through the options menu
 instead of as top-level commands, and has no `status` page; these are
 additions, not differences.
+
+### The connection layer
+
+The reference's connection path was recovered too, and it is not the same as
+this port's first cut. What the reference does:
+
+| | Reference | This port |
+| --- | --- | --- |
+| Upstream | `www.growtopia1.com` / `www.growtopia2.com` on **17725** | same, with the faster front door picked by a latency probe |
+| SOCKS5 for the game's UDP | yes — the player's SOCKS5 carries the ENet traffic | yes — a UDP relay does the SOCKS5 UDP ASSOCIATE in front of ENet |
+| Hosts file | writes `www.growtopia1.com` / `www.growtopia2.com` into the Windows hosts file so the client reaches the proxy | `login::write_hosts`, same idea |
+| Login | sends `action|logon` with `logon|`, `password|`, `password_verify|` itself | same |
+| Settings file | `C:\Users\Public\Proxy_variables` | `config.json` next to the binary |
+
+The port default was **17091** at first, inherited from the Python framework.
+The reference does not contain that number anywhere; it uses 17725 throughout.
+That is now the default here.
 
 ## Tests
 

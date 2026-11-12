@@ -3,6 +3,8 @@
 //! Three modes:
 //!   lanzyproxy              run the proxy (spoofer + ENet relay)
 //!   lanzyproxy --offline    the offline shell: run commands without a game
+//!   lanzyproxy --write-hosts  point the game server names at this proxy
+//!   lanzyproxy --clear-hosts  undo that
 //!   lanzyproxy --list       print the command list
 //!   lanzyproxy --version    print the version
 
@@ -47,6 +49,35 @@ fn main() {
             println!("  /{name:<14} {}", lzfeatures::REGISTRY[*name].summary);
         }
         println!("\n{} commands", names.len());
+        return;
+    }
+
+    if args.iter().any(|a| a == "--write-hosts") {
+        let config = Config::load(&config_path());
+        let ip = config.get_str("proxy_host");
+        let servers = [
+            config.get_str("upstream_host"),
+            config.get_str("upstream_alt_host"),
+        ];
+        let servers: Vec<&str> = servers.iter().map(|s| s.as_str()).filter(|s| !s.is_empty()).collect();
+        match lzproxy::login::write_hosts(&ip, &servers) {
+            Ok(()) => println!("[hosts] {} now points at {ip}", lzproxy::login::hosts_path().display()),
+            Err(e) => {
+                eprintln!("[hosts] cannot write {}: {e} (administrator rights?)", lzproxy::login::hosts_path().display());
+                std::process::exit(1);
+            }
+        }
+        return;
+    }
+
+    if args.iter().any(|a| a == "--clear-hosts") {
+        match lzproxy::login::clear_hosts() {
+            Ok(()) => println!("[hosts] entries removed"),
+            Err(e) => {
+                eprintln!("[hosts] cannot write the hosts file: {e}");
+                std::process::exit(1);
+            }
+        }
         return;
     }
 

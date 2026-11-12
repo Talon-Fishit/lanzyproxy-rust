@@ -1,7 +1,7 @@
 //! The proxy: an HTTP spoofer for `server_data.php` and the ENet relay.
 
 use std::io::{Read, Write};
-use std::net::{TcpListener, TcpStream};
+use std::net::{TcpListener, TcpStream, ToSocketAddrs};
 use std::sync::{Arc, Mutex};
 
 use lzconfig::Config;
@@ -9,6 +9,8 @@ use lzfeatures::Context;
 use lzstate::State;
 
 pub mod enet;
+pub mod login;
+pub mod socks5;
 pub mod spoofer;
 
 /// Where a proxied session's state and packets are shared.
@@ -63,6 +65,50 @@ pub fn serve_spoof_request(stream: &mut TcpStream, config: &Config) -> std::io::
         body.len()
     );
     stream.write_all(response.as_bytes())
+}
+
+/// Measure how long a host takes to answer a UDP probe.
+///
+/// The reference build times both front doors (`gt1_timeouted`, `gt2_lastms`)
+/// and keeps the one that answers first.
+fn probe_latency(host: &str, port: u16, timeout: u64) -> Option<u64> {
+    use std::net::{ToSocketAddrs, UdpSocket};
+    use std::time::Instant;
+
+    let socket = UdpSocket::bind("0.0.0.0:0").ok()?;
+    socket.set_read_timeout(Some(std::time::Duration::from_millis(timeout))).ok()?;
+    let addrs = (host, port).to_socket_addrs().ok()?;
+    let target = addrs.into_iter().next()?;
+    // A game server never answers a random datagram, so this measures whether
+    // the port is filtered rather than whether it replies.
+    let _ = socket.send_to(&[0u8; 8], target);
+    let started = Instant::now();
+    let mut buf = [0u8; 64];
+    match socket.recv_from(&mut buf) {
+        Ok(_) => Some(started.elapsed().as_millis() as u64),
+        Err(e) if e.kind() == std::io::ErrorKind::WouldBlock => None,
+        Err(_) => None,
+    }
+}
+
+/// Pick the front door to use: the configured one, unless the alternative
+/// answers measurably faster.
+pub fn pick_upstream(config: &Config) -> String {
+    let primary = config.get_str("upstream_host");
+    let alternate = config.get_str("upstream_alt_host");
+    if alternate.is_empty() {
+        return primary;
+    }
+    let port = config.get_int("upstream_port") as u16;
+    let timeout = config.get_int("upstream_probe_ms").max(200) as u64;
+
+    let a = probe_latency(&primary, port, timeout);
+    let b = probe_latency(&alternate, port, timeout);
+    match (a, b) {
+        (Some(x), Some(y)) if y + 50 < x => alternate,
+        (None, Some(_)) => alternate,
+        _ => primary,
+    }
 }
 
 /// Start the `server_data.php` spoofer. Returns the bound port.

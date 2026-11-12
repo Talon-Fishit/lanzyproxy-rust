@@ -56,8 +56,23 @@ impl Config {
         // core
         set("proxy_host", Value::String("127.0.0.1".into()));
         set("proxy_port", Value::from(17198));
-        set("upstream_host", Value::String("growtopia1.com".into()));
-        set("upstream_port", Value::from(17091));
+        // The reference build uses 17725. The older 17091 is not what the
+        // game listens on any more.
+        set("upstream_host", Value::String("www.growtopia1.com".into()));
+        set("upstream_port", Value::from(17725));
+        // The two front doors the game publishes. The proxy measures each one
+        // and keeps the faster.
+        set("upstream_alt_host", Value::String("www.growtopia2.com".into()));
+        set("upstream_alt_port", Value::from(17725));
+        set("upstream_probe_ms", Value::from(1500));
+        // An optional SOCKS5 proxy for the game's UDP traffic.
+        set("socks5_host", Value::String(String::new()));
+        set("socks5_port", Value::from(0));
+        set("socks5_user", Value::String(String::new()));
+        set("socks5_pass", Value::String(String::new()));
+        // The account the proxy logs in with.
+        set("login_username", Value::String(String::new()));
+        set("login_password", Value::String(String::new()));
         set("spoof_http_port", Value::from(80));
         set("auto_save", Value::Bool(true));
         set("hidden_mode", Value::Bool(false));
@@ -260,7 +275,8 @@ mod tests {
     fn defaults_are_present() {
         let cfg = Config::ephemeral();
         assert_eq!(cfg.get_int("proxy_port"), 17198);
-        assert_eq!(cfg.get_str("upstream_host"), "growtopia1.com");
+        assert_eq!(cfg.get_str("upstream_host"), "www.growtopia1.com");
+        assert_eq!(cfg.get_int("upstream_port"), 17725);
         assert!(cfg.get_bool("auto_save"));
     }
 

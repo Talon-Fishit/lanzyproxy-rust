@@ -158,8 +158,39 @@ pub fn run(config: &Config, mut ctx: Context, log: &dyn Fn(&str)) -> Result<(), 
 
     log(&format!("[enet] listening on {listen}"));
 
-    let upstream_host = config.get_str("upstream_host");
     let upstream_port = config.get_int("upstream_port") as u16;
+    // The game publishes two front doors; measure both and keep the faster.
+    let upstream_host = crate::pick_upstream(config);
+    log(&format!("[enet] upstream {upstream_host}:{upstream_port}"));
+
+    // When the player configured a SOCKS5 proxy, the game's UDP traffic goes
+    // through it, so ENet talks to a local relay instead of the real server.
+    let mut connect_host = upstream_host.clone();
+    let mut connect_port = upstream_port;
+    let proxy = crate::socks5::Socks5 {
+        host: config.get_str("socks5_host"),
+        port: config.get_int("socks5_port") as u16,
+        user: config.get_str("socks5_user"),
+        pass: config.get_str("socks5_pass"),
+    };
+    if proxy.is_set() {
+        match crate::socks5::start(&proxy, &upstream_host, upstream_port) {
+            Ok(relay) => {
+                log(&format!(
+                    "[socks5] relay {} -> {upstream_host}:{upstream_port}",
+                    relay.local
+                ));
+                connect_host = "127.0.0.1".to_string();
+                connect_port = relay.local.port();
+            }
+            Err(e) => {
+                log(&format!(
+                    "[socks5] cannot open the UDP tunnel: {e} (the proxy must support UDP)"
+                ));
+            }
+        }
+    }
+
     let mut need_upstream = false;
 
     loop {
@@ -240,7 +271,7 @@ pub fn run(config: &Config, mut ctx: Context, log: &dyn Fn(&str)) -> Result<(), 
 
         if need_upstream {
             need_upstream = false;
-            let Some(addr) = resolve(&upstream_host, upstream_port) else {
+            let Some(addr) = resolve(&connect_host, connect_port) else {
                 log(&format!("[enet] cannot resolve {upstream_host}"));
                 return Err(format!("cannot resolve {upstream_host}"));
             };
@@ -248,6 +279,18 @@ pub fn run(config: &Config, mut ctx: Context, log: &dyn Fn(&str)) -> Result<(), 
                 Ok(mut peer) => {
                     peer.set_data(Some(TAG_UPSTREAM));
                     log(&format!("[enet] upstream {upstream_host}:{upstream_port}"));
+
+                    // The reference build logs in itself once the upstream
+                    // connection is up.
+                    let username = config.get_str("login_username");
+                    let password = config.get_str("login_password");
+                    if !username.is_empty() {
+                        let request = crate::login::login_request(&username, &password);
+                        if let Ok(packet) = Packet::new(request.as_bytes(), PacketMode::ReliableSequenced) {
+                            let _ = peer.send_packet(packet, 0);
+                        }
+                        log(&format!("[auth] sent the login request for {username}"));
+                    }
                 }
                 Err(e) => {
                     log(&format!("[enet] cannot reach the upstream: {e}"));

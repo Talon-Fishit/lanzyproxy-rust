@@ -28,6 +28,7 @@ COMMANDS_RS = REPO / "crates" / "lzfeatures" / "src" / "commands.rs"
 DIALOG_RS = REPO / "crates" / "lzdialog" / "src" / "lib.rs"
 SPOOFER_RS = REPO / "crates" / "lzproxy" / "src" / "lib.rs"
 OPTIONS_RS = REPO / "crates" / "lzfeatures" / "src" / "options.rs"
+CONFIG_RS = REPO / "crates" / "lzconfig" / "src" / "lib.rs"
 
 
 def strings(path: Path) -> list[str]:
@@ -76,6 +77,18 @@ def reference_dialog_directives(lines: list[str]) -> set[str]:
         for token in re.findall(r"\b(add_[a-z_]+|end_[a-z_]+|start_[a-z_]+)\b", line):
             found.add(token)
     return found - noise
+
+
+def upstream_defaults() -> dict:
+    """The upstream host and port this port connects to by default."""
+    src = CONFIG_RS.read_text()
+    body = src.split("pub fn defaults", 1)[1]
+    host = re.search(r'set\("upstream_host", Value::String\("([^"]+)"', body)
+    port = re.search(r'set\("upstream_port", Value::from\((\d+)\)', body)
+    return {
+        "host": host.group(1) if host else "?",
+        "port": int(port.group(1)) if port else 0,
+    }
 
 
 def server_data_fields() -> set[str]:
@@ -137,6 +150,8 @@ def report(reference: Path) -> int:
         status = "OK" if ok else f"MISSING {missing}"
         print(f"  {label:<18} {covered:>4} / {total:<4}  {status}")
     print(f"  {'options menu':<18} {options:>4} / 17")
+    upstream = upstream_defaults()
+    print(f"  {'upstream':<18} {upstream['host']}:{upstream['port']}")
     print()
     print(f"  extra commands: {', '.join(sorted(port_names - bin_names))}")
     print()
