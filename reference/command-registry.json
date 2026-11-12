@@ -1,0 +1,7028 @@
+[
+ {
+  "name": "options",
+  "summary": "Fast Mag/Gaia/UT Retreive",
+  "aliases": [
+   "fast",
+   "magplant",
+   "mag",
+   "gaia",
+   "retreive",
+   "items",
+   "ut",
+   "unstable",
+   "5000",
+   "enable"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` \"You need to be Level to break that\" Text",
+  "aliases": [
+   "hide",
+   "you need",
+   "to be",
+   "level",
+   "to break",
+   "break that",
+   "need to",
+   "roulette",
+   "spin",
+   "spinning",
+   "spining",
+   "hide text"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Antipunch",
+  "aliases": [
+   "anti",
+   "punch",
+   "antipunch",
+   "jammer",
+   "hit",
+   "move"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Anti Lava Damage",
+  "aliases": [
+   "anti",
+   "lava",
+   "damage",
+   "take",
+   "die",
+   "antilava"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Pathfinding Toggle",
+  "aliases": [
+   "teleport",
+   "tp",
+   "click",
+   "instant",
+   "pathfind",
+   "path",
+   "fast",
+   "travel",
+   "traveling",
+   "blocks"
+  ]
+ },
+ {
+  "name": "autocook",
+  "summary": "Auto Cook Page",
+  "aliases": [
+   "cook",
+   "auto",
+   "autocook",
+   "food",
+   "ingredients",
+   "oven",
+   "toss",
+   "star"
+  ]
+ },
+ {
+  "name": "startcook",
+  "summary": "`2Start`` Auto Cooking",
+  "aliases": [
+   "cook",
+   "auto",
+   "start",
+   "begin",
+   "autocook",
+   "food",
+   "ingredient",
+   "toss",
+   "oven",
+   "star"
+  ]
+ },
+ {
+  "name": "clothes",
+  "summary": "Visual Clothes Equip",
+  "aliases": [
+   "clothe",
+   "clothes",
+   "find",
+   "equip",
+   "put on",
+   "legendary",
+   "item",
+   "wings",
+   "rayman",
+   "proxy",
+   "visual",
+   "fake"
+  ]
+ },
+ {
+  "name": "find",
+  "summary": "Find Any Growtopia Item",
+  "aliases": [
+   "find",
+   "item",
+   "itemid",
+   "seeds",
+   "finder",
+   "item id",
+   "search",
+   "visual",
+   "clothes",
+   "rarity",
+   "id",
+   "results",
+   "inventory",
+   "add"
+  ]
+ },
+ {
+  "name": "fish",
+  "summary": "Toggle Shortcut Autofish",
+  "aliases": [
+   "fish",
+   "bait",
+   "water",
+   "rod",
+   "auto",
+   "shortcut",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Autofish",
+  "aliases": [
+   "fish",
+   "water",
+   "bait",
+   "rod",
+   "auto",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Consumables Autobanner",
+  "aliases": [
+   "consumables",
+   "use",
+   "balloon",
+   "crime",
+   "fire",
+   "pocket",
+   "ban",
+   "consumable",
+   "lighter",
+   "autoban"
+  ]
+ },
+ {
+  "name": "wrench",
+  "summary": "Fast Wrench Mode",
+  "aliases": [
+   "wrench",
+   "mode",
+   "pull",
+   "kick",
+   "ban",
+   "right",
+   "click",
+   "close",
+   "open",
+   "entrance",
+   "door",
+   "fast"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` REME Number Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "reme",
+   "number",
+   "spin",
+   "show",
+   "display"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Real/Fake Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "fake",
+   "real",
+   "number",
+   "spin",
+   "show",
+   "display",
+   "type",
+   "check"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Last Roulette Spin",
+  "aliases": [
+   "roulette",
+   "roulette",
+   "rulete",
+   "wheel",
+   "last",
+   "recent",
+   "number",
+   "show",
+   "display",
+   "spin",
+   "player",
+   "name"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Ping Latency",
+  "aliases": [
+   "ping",
+   "number",
+   "name",
+   "green",
+   "check",
+   "latency",
+   "ms",
+   "display",
+   "show",
+   "next"
+  ]
+ },
+ {
+  "name": "dice",
+  "summary": "Fast Roll Dice",
+  "aliases": [
+   "roll",
+   "number",
+   "fast",
+   "dice",
+   "random",
+   "speed",
+   "instant",
+   "show"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Collected Gem Count",
+  "aliases": [
+   "gem",
+   "show",
+   "collected",
+   "colected",
+   "amount",
+   "+",
+   "lost",
+   "pickup",
+   "pick up",
+   "take",
+   "how many"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Public Entrances/Gates",
+  "aliases": [
+   "show",
+   "public",
+   "closed",
+   "red",
+   "green",
+   "door",
+   "color",
+   "display",
+   "gate",
+   "open"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` Private Messages",
+  "aliases": [
+   "hide",
+   "private",
+   "msg",
+   "spam",
+   "message",
+   "bots"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Auto Mod Detect",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "ban",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Mod Detect Settings",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban",
+   "all",
+   "access",
+   "acess",
+   "acces",
+   "admin",
+   "collect",
+   "world",
+   "join"
+  ]
+ },
+ {
+  "name": "pkickall",
+  "summary": "Fast Kick All",
+  "aliases": [
+   "kick",
+   "all",
+   "respawn",
+   "people",
+   "die"
+  ]
+ },
+ {
+  "name": "world",
+  "summary": "World Options & Average People Count",
+  "aliases": [
+   "world",
+   "trade",
+   "unban",
+   "info",
+   "data",
+   "average",
+   "based",
+   "count",
+   "amount",
+   "people",
+   "player",
+   "number"
+  ]
+ },
+ {
+  "name": "proxy",
+  "summary": "Proxy Commands List",
+  "aliases": [
+   "cmd",
+   "commands",
+   "proxy",
+   "info",
+   "all",
+   "feature"
+  ]
+ },
+ {
+  "name": "hotkey",
+  "summary": "Custom Hotkeys",
+  "aliases": [
+   "hotkey",
+   "key",
+   "keyboard",
+   "command",
+   "custom",
+   "list",
+   "none"
+  ]
+ },
+ {
+  "name": "settings",
+  "summary": "Proxy Settings",
+  "aliases": [
+   "setting",
+   "config",
+   "load",
+   "save",
+   "slot",
+   "main",
+   "delete",
+   "reset",
+   "feature"
+  ]
+ },
+ {
+  "name": "gs",
+  "summary": "Free Growscan 9000",
+  "aliases": [
+   "gs",
+   "growscan",
+   "9000",
+   "items",
+   "blocks",
+   "floating",
+   "world",
+   "free",
+   "show",
+   "stats",
+   "tree",
+   "fruits",
+   "view"
+  ]
+ },
+ {
+  "name": "scan",
+  "summary": "`2Enable`` Free Extract-O-Snap",
+  "aliases": [
+   "take",
+   "items",
+   "collect",
+   "only",
+   "1",
+   "check",
+   "tile",
+   "scan",
+   "extract",
+   "snap",
+   "-o-",
+   "free",
+   "floating",
+   "punch"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Main Options Page",
+  "aliases": [
+   "option",
+   "main",
+   "list",
+   "all",
+   "select",
+   "checkbox"
+  ]
+ },
+ {
+  "name": "country",
+  "summary": "Country Flag Changer",
+  "aliases": [
+   "country",
+   "flag",
+   "change",
+   "nepal",
+   "countries",
+   "custom"
+  ]
+ },
+ {
+  "name": "vend",
+  "summary": "Vending Page",
+  "aliases": [
+   "vend",
+   "buy",
+   "purchase",
+   "fast",
+   "restock",
+   "stock",
+   "items",
+   "withdraw",
+   "take",
+   "wls"
+  ]
+ },
+ {
+  "name": "reset",
+  "summary": "Reset all /pos for autohost",
+  "aliases": [
+   "autohost",
+   "host",
+   "reset",
+   "pos",
+   "all",
+   "tp",
+   "win1",
+   "win2",
+   "win3",
+   "win4"
+  ]
+ },
+ {
+  "name": "unequip",
+  "summary": "Unequips All Visual Clothes",
+  "aliases": [
+   "equip",
+   "visual",
+   "clothes",
+   "take",
+   "off",
+   "naked"
+  ]
+ },
+ {
+  "name": "autocollect",
+  "summary": "Autocollect Page",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway"
+  ]
+ },
+ {
+  "name": "collect",
+  "summary": "Fast Collect Floating Items Once Shortcut",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway",
+   "once",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "blocks",
+  "summary": "Show Growscan 9000 Blocks Shortcut",
+  "aliases": [
+   "blocks",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world"
+  ]
+ },
+ {
+  "name": "items",
+  "summary": "Show Growscan 9000 Floating Items Shortcut",
+  "aliases": [
+   "floating",
+   "item",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world",
+   "gem"
+  ]
+ },
+ {
+  "name": "check",
+  "summary": "Display Account Untradeable Items & Role Quests & Level",
+  "aliases": [
+   "level",
+   "account",
+   "untrade",
+   "tradeable",
+   "display",
+   "role",
+   "quest",
+   "info"
+  ]
+ },
+ {
+  "name": "render",
+  "summary": "Generate World Render Picture",
+  "aliases": [
+   "generate",
+   "world",
+   "render",
+   "picture",
+   "png",
+   "image",
+   "full"
+  ]
+ },
+ {
+  "name": "weather",
+  "summary": "Visual Weather Page",
+  "aliases": [
+   "weather",
+   "visual",
+   "machine",
+   "custom",
+   "background"
+  ]
+ },
+ {
+  "name": "tree",
+  "summary": "Show Fully Grown Planted Seeds Fruits",
+  "aliases": [
+   "fruit",
+   "tree",
+   "fully",
+   "grow",
+   "plant",
+   "seed",
+   "amount",
+   "number",
+   "show"
+  ]
+ },
+ {
+  "name": "chest",
+  "summary": "Show Items Inside Chest",
+  "aliases": [
+   "chest",
+   "items",
+   "show",
+   "inside",
+   "closed"
+  ]
+ },
+ {
+  "name": "spirit",
+  "summary": "Show Spirit Board Info (Clothing item & command)",
+  "aliases": [
+   "spirit",
+   "board",
+   "info",
+   "clothing",
+   "boss",
+   "ghost",
+   "dark"
+  ]
+ },
+ {
+  "name": "logoff",
+  "summary": "Fast Log Off From Growtopia",
+  "aliases": [
+   "log",
+   "off",
+   "out",
+   "disconnect",
+   "account"
+  ]
+ },
+ {
+  "name": "server",
+  "summary": "Show Growtopia Server Info",
+  "aliases": [
+   "growtopia",
+   "server",
+   "info",
+   "address",
+   "meta"
+  ]
+ },
+ {
+  "name": "pvend [Item Name]",
+  "summary": "Fast Pathfind To The Cheapest Vending Machine Selling [Item Name]",
+  "aliases": [
+   "vend",
+   "sell",
+   "buy",
+   "purchase",
+   "cheap",
+   "pathfind",
+   "find",
+   "item"
+  ]
+ },
+ {
+  "name": "pfind [Item Name]",
+  "summary": "Fast Pathfind To Closest Floating [Item Name] In The World",
+  "aliases": [
+   "closest",
+   "pathfind",
+   "item",
+   "tp",
+   "collect",
+   "teleport"
+  ]
+ },
+ {
+  "name": "switch",
+  "summary": "Fast Account Switch Page",
+  "aliases": [
+   "account",
+   "switch",
+   "login",
+   "password",
+   "growid",
+   "save"
+  ]
+ },
+ {
+  "name": "parkour",
+  "summary": "Fast Complete WolfWorld & ClashParkour Worlds",
+  "aliases": [
+   "finish",
+   "complete",
+   "parkour",
+   "wolf",
+   "world",
+   "clash",
+   "pathfind"
+  ]
+ },
+ {
+  "name": "list",
+  "summary": "Saved Worlds Page",
+  "aliases": [
+   "save",
+   "worlds",
+   "warp",
+   "list",
+   "doorid",
+   "all",
+   "name"
+  ]
+ },
+ {
+  "name": "gazette",
+  "summary": "Real Growtopia News Gazette",
+  "aliases": [
+   "real",
+   "growtopia",
+   "news",
+   "gazette",
+   "news"
+  ]
+ },
+ {
+  "name": "shop",
+  "summary": "Fast Auto Purchase From Growtopia Shop",
+  "aliases": [
+   "shop",
+   "fast",
+   "purchase",
+   "bulk",
+   "growtopia",
+   "buy",
+   "gems",
+   "ssp"
+  ]
+ },
+ {
+  "name": "lost",
+  "summary": "Fast Small & Big & Huge Locks Apply",
+  "aliases": [
+   "apply",
+   "small",
+   "big",
+   "huge",
+   "lock",
+   "public",
+   "ignore",
+   "empty",
+   "space",
+   "open"
+  ]
+ },
+ {
+  "name": "moddetect",
+  "summary": "Toggle Mod Detect Shortcut",
+  "aliases": [
+   "mod",
+   "detect",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autolock",
+  "summary": "Toggle Auto Wrench Lock Shortcut",
+  "aliases": [
+   "lock",
+   "auto",
+   "shortcut",
+   "small",
+   "big",
+   "huge",
+   "apply",
+   "empty",
+   "public"
+  ]
+ },
+ {
+  "name": "fastvend",
+  "summary": "Toggle Fast Vend Shortcut",
+  "aliases": [
+   "vend",
+   "shortcut",
+   "buy",
+   "purchase"
+  ]
+ },
+ {
+  "name": "hidden",
+  "summary": "Show Detected Hidden Moderators",
+  "aliases": [
+   "hidden",
+   "mod",
+   "detect",
+   "@",
+   "ago",
+   "with proxy"
+  ]
+ },
+ {
+  "name": "keep",
+  "summary": "Save Current Proxy Settings",
+  "aliases": [
+   "save",
+   "keep",
+   "proxy",
+   "setting",
+   "current",
+   "command",
+   "enabled",
+   "all"
+  ]
+ },
+ {
+  "name": "logs",
+  "summary": "Proxy Logs Page",
+  "aliases": [
+   "saved",
+   "collected",
+   "drop",
+   "world",
+   "in",
+   "with",
+   "trade",
+   "history",
+   "join"
+  ]
+ },
+ {
+  "name": "autofarm",
+  "summary": "Auto Farm Page",
+  "aliases": [
+   "auto",
+   "farm",
+   "select",
+   "build",
+   "place",
+   "interval",
+   "block",
+   "ms",
+   "chand",
+   "pepper"
+  ]
+ },
+ {
+  "name": "farm",
+  "summary": "Enable AutoFarm Shortcut",
+  "aliases": [
+   "auto",
+   "farm",
+   "shortcut",
+   "enable",
+   "select",
+   "build",
+   "place",
+   "punch",
+   "block",
+   "ms",
+   "start"
+  ]
+ },
+ {
+  "name": "autoplant",
+  "summary": "Auto Plant Page",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start"
+  ]
+ },
+ {
+  "name": "plant",
+  "summary": "Enable Auto Plant Shortcut",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "farm",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start",
+   "enable",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autoharvest",
+  "summary": "Auto Harvest Page",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms"
+  ]
+ },
+ {
+  "name": "harvest",
+  "summary": "Enable Auto Harvest Shortcut",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms",
+   "shortcut",
+   "enable",
+   "start",
+   "available"
+  ]
+ },
+ {
+  "name": "providers",
+  "summary": "Enable Auto Harvest Providers Shortcut",
+  "aliases": [
+   "auto",
+   "provide",
+   "chicken",
+   "cow",
+   "atm",
+   "harvest",
+   "collect",
+   "punch",
+   "farm",
+   "enable",
+   "shortcut",
+   "produc"
+  ]
+ },
+ {
+  "name": "ui",
+  "summary": "Change UI Colors Page",
+  "aliases": [
+   "change",
+   "color",
+   "colour",
+   "ui",
+   "custom",
+   "any",
+   "select",
+   "text"
+  ]
+ },
+ {
+  "name": "speed",
+  "summary": "Custom Player Speed Page",
+  "aliases": [
+   "custom",
+   "change",
+   "float",
+   "fly",
+   "player",
+   "speed",
+   "jump",
+   "fall",
+   "slow",
+   "fast",
+   "gravity",
+   "water",
+   "swim"
+  ]
+ },
+ {
+  "name": "worlds",
+  "summary": "List of Worlds Owned by You",
+  "aliases": [
+   "you",
+   "own",
+   "wl",
+   "dl",
+   "list",
+   "world",
+   "name"
+  ]
+ },
+ {
+  "name": "auto",
+  "summary": "Auto Ban/Pull On Enter World Page",
+  "aliases": [
+   "enter",
+   "join",
+   "world",
+   "ban",
+   "pull",
+   "auto",
+   "player",
+   "growid",
+   "specific",
+   "all",
+   "any"
+  ]
+ },
+ {
+  "name": "pathfind",
+  "summary": "Pathfinder Settings",
+  "aliases": [
+   "pathfind",
+   "tp",
+   "setting",
+   "teleport",
+   "delay",
+   "speed",
+   "blocks",
+   "travel"
+  ]
+ },
+ {
+  "name": "locked",
+  "summary": "Show Locked Doors Label Text",
+  "aliases": [
+   "lock",
+   "door",
+   "public",
+   "closed",
+   "private",
+   "label",
+   "text",
+   "show",
+   "red",
+   "hidden"
+  ]
+ },
+ {
+  "name": "track",
+  "summary": "Shows Dropped/Collected Items By Other Players In Console",
+  "aliases": [
+   "console",
+   "drop",
+   "collect",
+   "item",
+   "other",
+   "player",
+   "track",
+   "amount",
+   "live"
+  ]
+ },
+ {
+  "name": "calc 10+6",
+  "summary": "Calculates & Solves Math Equations",
+  "aliases": [
+   "math",
+   "calc",
+   "solve",
+   "equation",
+   "number",
+   "+",
+   "*",
+   "/",
+   "sum",
+   "divide",
+   "equal",
+   "="
+  ]
+ },
+ {
+  "name": "crime",
+  "summary": "Enables Auto Crime Shortcut",
+  "aliases": [
+   "crime",
+   "shortcut",
+   "auto",
+   "card",
+   "fight",
+   "against",
+   "wave"
+  ]
+ },
+ {
+  "name": "titles",
+  "summary": "Visual Titles Page",
+  "aliases": [
+   "title",
+   "of",
+   "legend",
+   "name",
+   "g4g",
+   "doctor",
+   "dr.",
+   "custom",
+   "flag"
+  ]
+ },
+ {
+  "name": "acc",
+  "summary": "Enable Auto Accept Access",
+  "aliases": [
+   "accept",
+   "access",
+   "wl",
+   "shortcut",
+   "acess",
+   "acess",
+   "lock",
+   "to"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Fast Mag/Gaia/UT Retreive",
+  "aliases": [
+   "fast",
+   "magplant",
+   "mag",
+   "gaia",
+   "retreive",
+   "items",
+   "ut",
+   "unstable",
+   "5000",
+   "enable"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` \"You need to be Level to break that\" Text",
+  "aliases": [
+   "hide",
+   "you need",
+   "to be",
+   "level",
+   "to break",
+   "break that",
+   "need to",
+   "roulette",
+   "spin",
+   "spinning",
+   "spining",
+   "hide text"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Antipunch",
+  "aliases": [
+   "anti",
+   "punch",
+   "antipunch",
+   "jammer",
+   "hit",
+   "move"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Anti Lava Damage",
+  "aliases": [
+   "anti",
+   "lava",
+   "damage",
+   "take",
+   "die",
+   "antilava"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Pathfinding Toggle",
+  "aliases": [
+   "teleport",
+   "tp",
+   "click",
+   "instant",
+   "pathfind",
+   "path",
+   "fast",
+   "travel",
+   "traveling",
+   "blocks"
+  ]
+ },
+ {
+  "name": "autocook",
+  "summary": "Auto Cook Page",
+  "aliases": [
+   "cook",
+   "auto",
+   "autocook",
+   "food",
+   "ingredients",
+   "oven",
+   "toss",
+   "star"
+  ]
+ },
+ {
+  "name": "startcook",
+  "summary": "`2Start`` Auto Cooking",
+  "aliases": [
+   "cook",
+   "auto",
+   "start",
+   "begin",
+   "autocook",
+   "food",
+   "ingredient",
+   "toss",
+   "oven",
+   "star"
+  ]
+ },
+ {
+  "name": "clothes",
+  "summary": "Visual Clothes Equip",
+  "aliases": [
+   "clothe",
+   "clothes",
+   "find",
+   "equip",
+   "put on",
+   "legendary",
+   "item",
+   "wings",
+   "rayman",
+   "proxy",
+   "visual",
+   "fake"
+  ]
+ },
+ {
+  "name": "find",
+  "summary": "Find Any Growtopia Item",
+  "aliases": [
+   "find",
+   "item",
+   "itemid",
+   "seeds",
+   "finder",
+   "item id",
+   "search",
+   "visual",
+   "clothes",
+   "rarity",
+   "id",
+   "results",
+   "inventory",
+   "add"
+  ]
+ },
+ {
+  "name": "fish",
+  "summary": "Toggle Shortcut Autofish",
+  "aliases": [
+   "fish",
+   "bait",
+   "water",
+   "rod",
+   "auto",
+   "shortcut",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Autofish",
+  "aliases": [
+   "fish",
+   "water",
+   "bait",
+   "rod",
+   "auto",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Consumables Autobanner",
+  "aliases": [
+   "consumables",
+   "use",
+   "balloon",
+   "crime",
+   "fire",
+   "pocket",
+   "ban",
+   "consumable",
+   "lighter",
+   "autoban"
+  ]
+ },
+ {
+  "name": "wrench",
+  "summary": "Fast Wrench Mode",
+  "aliases": [
+   "wrench",
+   "mode",
+   "pull",
+   "kick",
+   "ban",
+   "right",
+   "click",
+   "close",
+   "open",
+   "entrance",
+   "door",
+   "fast"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` REME Number Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "reme",
+   "number",
+   "spin",
+   "show",
+   "display"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Real/Fake Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "fake",
+   "real",
+   "number",
+   "spin",
+   "show",
+   "display",
+   "type",
+   "check"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Last Roulette Spin",
+  "aliases": [
+   "roulette",
+   "roulette",
+   "rulete",
+   "wheel",
+   "last",
+   "recent",
+   "number",
+   "show",
+   "display",
+   "spin",
+   "player",
+   "name"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Ping Latency",
+  "aliases": [
+   "ping",
+   "number",
+   "name",
+   "green",
+   "check",
+   "latency",
+   "ms",
+   "display",
+   "show",
+   "next"
+  ]
+ },
+ {
+  "name": "dice",
+  "summary": "Fast Roll Dice",
+  "aliases": [
+   "roll",
+   "number",
+   "fast",
+   "dice",
+   "random",
+   "speed",
+   "instant",
+   "show"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Collected Gem Count",
+  "aliases": [
+   "gem",
+   "show",
+   "collected",
+   "colected",
+   "amount",
+   "+",
+   "lost",
+   "pickup",
+   "pick up",
+   "take",
+   "how many"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Public Entrances/Gates",
+  "aliases": [
+   "show",
+   "public",
+   "closed",
+   "red",
+   "green",
+   "door",
+   "color",
+   "display",
+   "gate",
+   "open"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` Private Messages",
+  "aliases": [
+   "hide",
+   "private",
+   "msg",
+   "spam",
+   "message",
+   "bots"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Auto Mod Detect",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "ban",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Mod Detect Settings",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban",
+   "all",
+   "access",
+   "acess",
+   "acces",
+   "admin",
+   "collect",
+   "world",
+   "join"
+  ]
+ },
+ {
+  "name": "pkickall",
+  "summary": "Fast Kick All",
+  "aliases": [
+   "kick",
+   "all",
+   "respawn",
+   "people",
+   "die"
+  ]
+ },
+ {
+  "name": "world",
+  "summary": "World Options & Average People Count",
+  "aliases": [
+   "world",
+   "trade",
+   "unban",
+   "info",
+   "data",
+   "average",
+   "based",
+   "count",
+   "amount",
+   "people",
+   "player",
+   "number"
+  ]
+ },
+ {
+  "name": "proxy",
+  "summary": "Proxy Commands List",
+  "aliases": [
+   "cmd",
+   "commands",
+   "proxy",
+   "info",
+   "all",
+   "feature"
+  ]
+ },
+ {
+  "name": "hotkey",
+  "summary": "Custom Hotkeys",
+  "aliases": [
+   "hotkey",
+   "key",
+   "keyboard",
+   "command",
+   "custom",
+   "list",
+   "none"
+  ]
+ },
+ {
+  "name": "settings",
+  "summary": "Proxy Settings",
+  "aliases": [
+   "setting",
+   "config",
+   "load",
+   "save",
+   "slot",
+   "main",
+   "delete",
+   "reset",
+   "feature"
+  ]
+ },
+ {
+  "name": "gs",
+  "summary": "Free Growscan 9000",
+  "aliases": [
+   "gs",
+   "growscan",
+   "9000",
+   "items",
+   "blocks",
+   "floating",
+   "world",
+   "free",
+   "show",
+   "stats",
+   "tree",
+   "fruits",
+   "view"
+  ]
+ },
+ {
+  "name": "scan",
+  "summary": "`2Enable`` Free Extract-O-Snap",
+  "aliases": [
+   "take",
+   "items",
+   "collect",
+   "only",
+   "1",
+   "check",
+   "tile",
+   "scan",
+   "extract",
+   "snap",
+   "-o-",
+   "free",
+   "floating",
+   "punch"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Main Options Page",
+  "aliases": [
+   "option",
+   "main",
+   "list",
+   "all",
+   "select",
+   "checkbox"
+  ]
+ },
+ {
+  "name": "country",
+  "summary": "Country Flag Changer",
+  "aliases": [
+   "country",
+   "flag",
+   "change",
+   "nepal",
+   "countries",
+   "custom"
+  ]
+ },
+ {
+  "name": "vend",
+  "summary": "Vending Page",
+  "aliases": [
+   "vend",
+   "buy",
+   "purchase",
+   "fast",
+   "restock",
+   "stock",
+   "items",
+   "withdraw",
+   "take",
+   "wls"
+  ]
+ },
+ {
+  "name": "reset",
+  "summary": "Reset all /pos for autohost",
+  "aliases": [
+   "autohost",
+   "host",
+   "reset",
+   "pos",
+   "all",
+   "tp",
+   "win1",
+   "win2",
+   "win3",
+   "win4"
+  ]
+ },
+ {
+  "name": "unequip",
+  "summary": "Unequips All Visual Clothes",
+  "aliases": [
+   "equip",
+   "visual",
+   "clothes",
+   "take",
+   "off",
+   "naked"
+  ]
+ },
+ {
+  "name": "autocollect",
+  "summary": "Autocollect Page",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway"
+  ]
+ },
+ {
+  "name": "collect",
+  "summary": "Fast Collect Floating Items Once Shortcut",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway",
+   "once",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "blocks",
+  "summary": "Show Growscan 9000 Blocks Shortcut",
+  "aliases": [
+   "blocks",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world"
+  ]
+ },
+ {
+  "name": "items",
+  "summary": "Show Growscan 9000 Floating Items Shortcut",
+  "aliases": [
+   "floating",
+   "item",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world",
+   "gem"
+  ]
+ },
+ {
+  "name": "check",
+  "summary": "Display Account Untradeable Items & Role Quests & Level",
+  "aliases": [
+   "level",
+   "account",
+   "untrade",
+   "tradeable",
+   "display",
+   "role",
+   "quest",
+   "info"
+  ]
+ },
+ {
+  "name": "render",
+  "summary": "Generate World Render Picture",
+  "aliases": [
+   "generate",
+   "world",
+   "render",
+   "picture",
+   "png",
+   "image",
+   "full"
+  ]
+ },
+ {
+  "name": "weather",
+  "summary": "Visual Weather Page",
+  "aliases": [
+   "weather",
+   "visual",
+   "machine",
+   "custom",
+   "background"
+  ]
+ },
+ {
+  "name": "tree",
+  "summary": "Show Fully Grown Planted Seeds Fruits",
+  "aliases": [
+   "fruit",
+   "tree",
+   "fully",
+   "grow",
+   "plant",
+   "seed",
+   "amount",
+   "number",
+   "show"
+  ]
+ },
+ {
+  "name": "chest",
+  "summary": "Show Items Inside Chest",
+  "aliases": [
+   "chest",
+   "items",
+   "show",
+   "inside",
+   "closed"
+  ]
+ },
+ {
+  "name": "spirit",
+  "summary": "Show Spirit Board Info (Clothing item & command)",
+  "aliases": [
+   "spirit",
+   "board",
+   "info",
+   "clothing",
+   "boss",
+   "ghost",
+   "dark"
+  ]
+ },
+ {
+  "name": "logoff",
+  "summary": "Fast Log Off From Growtopia",
+  "aliases": [
+   "log",
+   "off",
+   "out",
+   "disconnect",
+   "account"
+  ]
+ },
+ {
+  "name": "server",
+  "summary": "Show Growtopia Server Info",
+  "aliases": [
+   "growtopia",
+   "server",
+   "info",
+   "address",
+   "meta"
+  ]
+ },
+ {
+  "name": "pvend [Item Name]",
+  "summary": "Fast Pathfind To The Cheapest Vending Machine Selling [Item Name]",
+  "aliases": [
+   "vend",
+   "sell",
+   "buy",
+   "purchase",
+   "cheap",
+   "pathfind",
+   "find",
+   "item"
+  ]
+ },
+ {
+  "name": "pfind [Item Name]",
+  "summary": "Fast Pathfind To Closest Floating [Item Name] In The World",
+  "aliases": [
+   "closest",
+   "pathfind",
+   "item",
+   "tp",
+   "collect",
+   "teleport"
+  ]
+ },
+ {
+  "name": "switch",
+  "summary": "Fast Account Switch Page",
+  "aliases": [
+   "account",
+   "switch",
+   "login",
+   "password",
+   "growid",
+   "save"
+  ]
+ },
+ {
+  "name": "parkour",
+  "summary": "Fast Complete WolfWorld & ClashParkour Worlds",
+  "aliases": [
+   "finish",
+   "complete",
+   "parkour",
+   "wolf",
+   "world",
+   "clash",
+   "pathfind"
+  ]
+ },
+ {
+  "name": "list",
+  "summary": "Saved Worlds Page",
+  "aliases": [
+   "save",
+   "worlds",
+   "warp",
+   "list",
+   "doorid",
+   "all",
+   "name"
+  ]
+ },
+ {
+  "name": "gazette",
+  "summary": "Real Growtopia News Gazette",
+  "aliases": [
+   "real",
+   "growtopia",
+   "news",
+   "gazette",
+   "news"
+  ]
+ },
+ {
+  "name": "shop",
+  "summary": "Fast Auto Purchase From Growtopia Shop",
+  "aliases": [
+   "shop",
+   "fast",
+   "purchase",
+   "bulk",
+   "growtopia",
+   "buy",
+   "gems",
+   "ssp"
+  ]
+ },
+ {
+  "name": "lost",
+  "summary": "Fast Small & Big & Huge Locks Apply",
+  "aliases": [
+   "apply",
+   "small",
+   "big",
+   "huge",
+   "lock",
+   "public",
+   "ignore",
+   "empty",
+   "space",
+   "open"
+  ]
+ },
+ {
+  "name": "moddetect",
+  "summary": "Toggle Mod Detect Shortcut",
+  "aliases": [
+   "mod",
+   "detect",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autolock",
+  "summary": "Toggle Auto Wrench Lock Shortcut",
+  "aliases": [
+   "lock",
+   "auto",
+   "shortcut",
+   "small",
+   "big",
+   "huge",
+   "apply",
+   "empty",
+   "public"
+  ]
+ },
+ {
+  "name": "fastvend",
+  "summary": "Toggle Fast Vend Shortcut",
+  "aliases": [
+   "vend",
+   "shortcut",
+   "buy",
+   "purchase"
+  ]
+ },
+ {
+  "name": "hidden",
+  "summary": "Show Detected Hidden Moderators",
+  "aliases": [
+   "hidden",
+   "mod",
+   "detect",
+   "@",
+   "ago",
+   "with proxy"
+  ]
+ },
+ {
+  "name": "keep",
+  "summary": "Save Current Proxy Settings",
+  "aliases": [
+   "save",
+   "keep",
+   "proxy",
+   "setting",
+   "current",
+   "command",
+   "enabled",
+   "all"
+  ]
+ },
+ {
+  "name": "logs",
+  "summary": "Proxy Logs Page",
+  "aliases": [
+   "saved",
+   "collected",
+   "drop",
+   "world",
+   "in",
+   "with",
+   "trade",
+   "history",
+   "join"
+  ]
+ },
+ {
+  "name": "autofarm",
+  "summary": "Auto Farm Page",
+  "aliases": [
+   "auto",
+   "farm",
+   "select",
+   "build",
+   "place",
+   "interval",
+   "block",
+   "ms",
+   "chand",
+   "pepper"
+  ]
+ },
+ {
+  "name": "farm",
+  "summary": "Enable AutoFarm Shortcut",
+  "aliases": [
+   "auto",
+   "farm",
+   "shortcut",
+   "enable",
+   "select",
+   "build",
+   "place",
+   "punch",
+   "block",
+   "ms",
+   "start"
+  ]
+ },
+ {
+  "name": "autoplant",
+  "summary": "Auto Plant Page",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start"
+  ]
+ },
+ {
+  "name": "plant",
+  "summary": "Enable Auto Plant Shortcut",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "farm",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start",
+   "enable",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autoharvest",
+  "summary": "Auto Harvest Page",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms"
+  ]
+ },
+ {
+  "name": "harvest",
+  "summary": "Enable Auto Harvest Shortcut",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms",
+   "shortcut",
+   "enable",
+   "start",
+   "available"
+  ]
+ },
+ {
+  "name": "providers",
+  "summary": "Enable Auto Harvest Providers Shortcut",
+  "aliases": [
+   "auto",
+   "provide",
+   "chicken",
+   "cow",
+   "atm",
+   "harvest",
+   "collect",
+   "punch",
+   "farm",
+   "enable",
+   "shortcut",
+   "produc"
+  ]
+ },
+ {
+  "name": "ui",
+  "summary": "Change UI Colors Page",
+  "aliases": [
+   "change",
+   "color",
+   "colour",
+   "ui",
+   "custom",
+   "any",
+   "select",
+   "text"
+  ]
+ },
+ {
+  "name": "speed",
+  "summary": "Custom Player Speed Page",
+  "aliases": [
+   "custom",
+   "change",
+   "float",
+   "fly",
+   "player",
+   "speed",
+   "jump",
+   "fall",
+   "slow",
+   "fast",
+   "gravity",
+   "water",
+   "swim"
+  ]
+ },
+ {
+  "name": "worlds",
+  "summary": "List of Worlds Owned by You",
+  "aliases": [
+   "you",
+   "own",
+   "wl",
+   "dl",
+   "list",
+   "world",
+   "name"
+  ]
+ },
+ {
+  "name": "auto",
+  "summary": "Auto Ban/Pull On Enter World Page",
+  "aliases": [
+   "enter",
+   "join",
+   "world",
+   "ban",
+   "pull",
+   "auto",
+   "player",
+   "growid",
+   "specific",
+   "all",
+   "any"
+  ]
+ },
+ {
+  "name": "pathfind",
+  "summary": "Pathfinder Settings",
+  "aliases": [
+   "pathfind",
+   "tp",
+   "setting",
+   "teleport",
+   "delay",
+   "speed",
+   "blocks",
+   "travel"
+  ]
+ },
+ {
+  "name": "locked",
+  "summary": "Show Locked Doors Label Text",
+  "aliases": [
+   "lock",
+   "door",
+   "public",
+   "closed",
+   "private",
+   "label",
+   "text",
+   "show",
+   "red",
+   "hidden"
+  ]
+ },
+ {
+  "name": "track",
+  "summary": "Shows Dropped/Collected Items By Other Players In Console",
+  "aliases": [
+   "console",
+   "drop",
+   "collect",
+   "item",
+   "other",
+   "player",
+   "track",
+   "amount",
+   "live"
+  ]
+ },
+ {
+  "name": "calc 10+6",
+  "summary": "Calculates & Solves Math Equations",
+  "aliases": [
+   "math",
+   "calc",
+   "solve",
+   "equation",
+   "number",
+   "+",
+   "*",
+   "/",
+   "sum",
+   "divide",
+   "equal",
+   "="
+  ]
+ },
+ {
+  "name": "crime",
+  "summary": "Enables Auto Crime Shortcut",
+  "aliases": [
+   "crime",
+   "shortcut",
+   "auto",
+   "card",
+   "fight",
+   "against",
+   "wave"
+  ]
+ },
+ {
+  "name": "titles",
+  "summary": "Visual Titles Page",
+  "aliases": [
+   "title",
+   "of",
+   "legend",
+   "name",
+   "g4g",
+   "doctor",
+   "dr.",
+   "custom",
+   "flag"
+  ]
+ },
+ {
+  "name": "acc",
+  "summary": "Enable Auto Accept Access",
+  "aliases": [
+   "accept",
+   "access",
+   "wl",
+   "shortcut",
+   "acess",
+   "acess",
+   "lock",
+   "to"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Fast Mag/Gaia/UT Retreive",
+  "aliases": [
+   "fast",
+   "magplant",
+   "mag",
+   "gaia",
+   "retreive",
+   "items",
+   "ut",
+   "unstable",
+   "5000",
+   "enable"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` \"You need to be Level to break that\" Text",
+  "aliases": [
+   "hide",
+   "you need",
+   "to be",
+   "level",
+   "to break",
+   "break that",
+   "need to",
+   "roulette",
+   "spin",
+   "spinning",
+   "spining",
+   "hide text"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Antipunch",
+  "aliases": [
+   "anti",
+   "punch",
+   "antipunch",
+   "jammer",
+   "hit",
+   "move"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Anti Lava Damage",
+  "aliases": [
+   "anti",
+   "lava",
+   "damage",
+   "take",
+   "die",
+   "antilava"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Pathfinding Toggle",
+  "aliases": [
+   "teleport",
+   "tp",
+   "click",
+   "instant",
+   "pathfind",
+   "path",
+   "fast",
+   "travel",
+   "traveling",
+   "blocks"
+  ]
+ },
+ {
+  "name": "autocook",
+  "summary": "Auto Cook Page",
+  "aliases": [
+   "cook",
+   "auto",
+   "autocook",
+   "food",
+   "ingredients",
+   "oven",
+   "toss",
+   "star"
+  ]
+ },
+ {
+  "name": "startcook",
+  "summary": "`2Start`` Auto Cooking",
+  "aliases": [
+   "cook",
+   "auto",
+   "start",
+   "begin",
+   "autocook",
+   "food",
+   "ingredient",
+   "toss",
+   "oven",
+   "star"
+  ]
+ },
+ {
+  "name": "clothes",
+  "summary": "Visual Clothes Equip",
+  "aliases": [
+   "clothe",
+   "clothes",
+   "find",
+   "equip",
+   "put on",
+   "legendary",
+   "item",
+   "wings",
+   "rayman",
+   "proxy",
+   "visual",
+   "fake"
+  ]
+ },
+ {
+  "name": "find",
+  "summary": "Find Any Growtopia Item",
+  "aliases": [
+   "find",
+   "item",
+   "itemid",
+   "seeds",
+   "finder",
+   "item id",
+   "search",
+   "visual",
+   "clothes",
+   "rarity",
+   "id",
+   "results",
+   "inventory",
+   "add"
+  ]
+ },
+ {
+  "name": "fish",
+  "summary": "Toggle Shortcut Autofish",
+  "aliases": [
+   "fish",
+   "bait",
+   "water",
+   "rod",
+   "auto",
+   "shortcut",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Autofish",
+  "aliases": [
+   "fish",
+   "water",
+   "bait",
+   "rod",
+   "auto",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Consumables Autobanner",
+  "aliases": [
+   "consumables",
+   "use",
+   "balloon",
+   "crime",
+   "fire",
+   "pocket",
+   "ban",
+   "consumable",
+   "lighter",
+   "autoban"
+  ]
+ },
+ {
+  "name": "wrench",
+  "summary": "Fast Wrench Mode",
+  "aliases": [
+   "wrench",
+   "mode",
+   "pull",
+   "kick",
+   "ban",
+   "right",
+   "click",
+   "close",
+   "open",
+   "entrance",
+   "door",
+   "fast"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` REME Number Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "reme",
+   "number",
+   "spin",
+   "show",
+   "display"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Real/Fake Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "fake",
+   "real",
+   "number",
+   "spin",
+   "show",
+   "display",
+   "type",
+   "check"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Last Roulette Spin",
+  "aliases": [
+   "roulette",
+   "roulette",
+   "rulete",
+   "wheel",
+   "last",
+   "recent",
+   "number",
+   "show",
+   "display",
+   "spin",
+   "player",
+   "name"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Ping Latency",
+  "aliases": [
+   "ping",
+   "number",
+   "name",
+   "green",
+   "check",
+   "latency",
+   "ms",
+   "display",
+   "show",
+   "next"
+  ]
+ },
+ {
+  "name": "dice",
+  "summary": "Fast Roll Dice",
+  "aliases": [
+   "roll",
+   "number",
+   "fast",
+   "dice",
+   "random",
+   "speed",
+   "instant",
+   "show"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Collected Gem Count",
+  "aliases": [
+   "gem",
+   "show",
+   "collected",
+   "colected",
+   "amount",
+   "+",
+   "lost",
+   "pickup",
+   "pick up",
+   "take",
+   "how many"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Public Entrances/Gates",
+  "aliases": [
+   "show",
+   "public",
+   "closed",
+   "red",
+   "green",
+   "door",
+   "color",
+   "display",
+   "gate",
+   "open"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` Private Messages",
+  "aliases": [
+   "hide",
+   "private",
+   "msg",
+   "spam",
+   "message",
+   "bots"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Auto Mod Detect",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "ban",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Mod Detect Settings",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban",
+   "all",
+   "access",
+   "acess",
+   "acces",
+   "admin",
+   "collect",
+   "world",
+   "join"
+  ]
+ },
+ {
+  "name": "pkickall",
+  "summary": "Fast Kick All",
+  "aliases": [
+   "kick",
+   "all",
+   "respawn",
+   "people",
+   "die"
+  ]
+ },
+ {
+  "name": "world",
+  "summary": "World Options & Average People Count",
+  "aliases": [
+   "world",
+   "trade",
+   "unban",
+   "info",
+   "data",
+   "average",
+   "based",
+   "count",
+   "amount",
+   "people",
+   "player",
+   "number"
+  ]
+ },
+ {
+  "name": "proxy",
+  "summary": "Proxy Commands List",
+  "aliases": [
+   "cmd",
+   "commands",
+   "proxy",
+   "info",
+   "all",
+   "feature"
+  ]
+ },
+ {
+  "name": "hotkey",
+  "summary": "Custom Hotkeys",
+  "aliases": [
+   "hotkey",
+   "key",
+   "keyboard",
+   "command",
+   "custom",
+   "list",
+   "none"
+  ]
+ },
+ {
+  "name": "settings",
+  "summary": "Proxy Settings",
+  "aliases": [
+   "setting",
+   "config",
+   "load",
+   "save",
+   "slot",
+   "main",
+   "delete",
+   "reset",
+   "feature"
+  ]
+ },
+ {
+  "name": "gs",
+  "summary": "Free Growscan 9000",
+  "aliases": [
+   "gs",
+   "growscan",
+   "9000",
+   "items",
+   "blocks",
+   "floating",
+   "world",
+   "free",
+   "show",
+   "stats",
+   "tree",
+   "fruits",
+   "view"
+  ]
+ },
+ {
+  "name": "scan",
+  "summary": "`2Enable`` Free Extract-O-Snap",
+  "aliases": [
+   "take",
+   "items",
+   "collect",
+   "only",
+   "1",
+   "check",
+   "tile",
+   "scan",
+   "extract",
+   "snap",
+   "-o-",
+   "free",
+   "floating",
+   "punch"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Main Options Page",
+  "aliases": [
+   "option",
+   "main",
+   "list",
+   "all",
+   "select",
+   "checkbox"
+  ]
+ },
+ {
+  "name": "country",
+  "summary": "Country Flag Changer",
+  "aliases": [
+   "country",
+   "flag",
+   "change",
+   "nepal",
+   "countries",
+   "custom"
+  ]
+ },
+ {
+  "name": "vend",
+  "summary": "Vending Page",
+  "aliases": [
+   "vend",
+   "buy",
+   "purchase",
+   "fast",
+   "restock",
+   "stock",
+   "items",
+   "withdraw",
+   "take",
+   "wls"
+  ]
+ },
+ {
+  "name": "reset",
+  "summary": "Reset all /pos for autohost",
+  "aliases": [
+   "autohost",
+   "host",
+   "reset",
+   "pos",
+   "all",
+   "tp",
+   "win1",
+   "win2",
+   "win3",
+   "win4"
+  ]
+ },
+ {
+  "name": "unequip",
+  "summary": "Unequips All Visual Clothes",
+  "aliases": [
+   "equip",
+   "visual",
+   "clothes",
+   "take",
+   "off",
+   "naked"
+  ]
+ },
+ {
+  "name": "autocollect",
+  "summary": "Autocollect Page",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway"
+  ]
+ },
+ {
+  "name": "collect",
+  "summary": "Fast Collect Floating Items Once Shortcut",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway",
+   "once",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "blocks",
+  "summary": "Show Growscan 9000 Blocks Shortcut",
+  "aliases": [
+   "blocks",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world"
+  ]
+ },
+ {
+  "name": "items",
+  "summary": "Show Growscan 9000 Floating Items Shortcut",
+  "aliases": [
+   "floating",
+   "item",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world",
+   "gem"
+  ]
+ },
+ {
+  "name": "check",
+  "summary": "Display Account Untradeable Items & Role Quests & Level",
+  "aliases": [
+   "level",
+   "account",
+   "untrade",
+   "tradeable",
+   "display",
+   "role",
+   "quest",
+   "info"
+  ]
+ },
+ {
+  "name": "render",
+  "summary": "Generate World Render Picture",
+  "aliases": [
+   "generate",
+   "world",
+   "render",
+   "picture",
+   "png",
+   "image",
+   "full"
+  ]
+ },
+ {
+  "name": "weather",
+  "summary": "Visual Weather Page",
+  "aliases": [
+   "weather",
+   "visual",
+   "machine",
+   "custom",
+   "background"
+  ]
+ },
+ {
+  "name": "tree",
+  "summary": "Show Fully Grown Planted Seeds Fruits",
+  "aliases": [
+   "fruit",
+   "tree",
+   "fully",
+   "grow",
+   "plant",
+   "seed",
+   "amount",
+   "number",
+   "show"
+  ]
+ },
+ {
+  "name": "chest",
+  "summary": "Show Items Inside Chest",
+  "aliases": [
+   "chest",
+   "items",
+   "show",
+   "inside",
+   "closed"
+  ]
+ },
+ {
+  "name": "spirit",
+  "summary": "Show Spirit Board Info (Clothing item & command)",
+  "aliases": [
+   "spirit",
+   "board",
+   "info",
+   "clothing",
+   "boss",
+   "ghost",
+   "dark"
+  ]
+ },
+ {
+  "name": "logoff",
+  "summary": "Fast Log Off From Growtopia",
+  "aliases": [
+   "log",
+   "off",
+   "out",
+   "disconnect",
+   "account"
+  ]
+ },
+ {
+  "name": "server",
+  "summary": "Show Growtopia Server Info",
+  "aliases": [
+   "growtopia",
+   "server",
+   "info",
+   "address",
+   "meta"
+  ]
+ },
+ {
+  "name": "pvend [Item Name]",
+  "summary": "Fast Pathfind To The Cheapest Vending Machine Selling [Item Name]",
+  "aliases": [
+   "vend",
+   "sell",
+   "buy",
+   "purchase",
+   "cheap",
+   "pathfind",
+   "find",
+   "item"
+  ]
+ },
+ {
+  "name": "pfind [Item Name]",
+  "summary": "Fast Pathfind To Closest Floating [Item Name] In The World",
+  "aliases": [
+   "closest",
+   "pathfind",
+   "item",
+   "tp",
+   "collect",
+   "teleport"
+  ]
+ },
+ {
+  "name": "switch",
+  "summary": "Fast Account Switch Page",
+  "aliases": [
+   "account",
+   "switch",
+   "login",
+   "password",
+   "growid",
+   "save"
+  ]
+ },
+ {
+  "name": "parkour",
+  "summary": "Fast Complete WolfWorld & ClashParkour Worlds",
+  "aliases": [
+   "finish",
+   "complete",
+   "parkour",
+   "wolf",
+   "world",
+   "clash",
+   "pathfind"
+  ]
+ },
+ {
+  "name": "list",
+  "summary": "Saved Worlds Page",
+  "aliases": [
+   "save",
+   "worlds",
+   "warp",
+   "list",
+   "doorid",
+   "all",
+   "name"
+  ]
+ },
+ {
+  "name": "gazette",
+  "summary": "Real Growtopia News Gazette",
+  "aliases": [
+   "real",
+   "growtopia",
+   "news",
+   "gazette",
+   "news"
+  ]
+ },
+ {
+  "name": "shop",
+  "summary": "Fast Auto Purchase From Growtopia Shop",
+  "aliases": [
+   "shop",
+   "fast",
+   "purchase",
+   "bulk",
+   "growtopia",
+   "buy",
+   "gems",
+   "ssp"
+  ]
+ },
+ {
+  "name": "lost",
+  "summary": "Fast Small & Big & Huge Locks Apply",
+  "aliases": [
+   "apply",
+   "small",
+   "big",
+   "huge",
+   "lock",
+   "public",
+   "ignore",
+   "empty",
+   "space",
+   "open"
+  ]
+ },
+ {
+  "name": "moddetect",
+  "summary": "Toggle Mod Detect Shortcut",
+  "aliases": [
+   "mod",
+   "detect",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autolock",
+  "summary": "Toggle Auto Wrench Lock Shortcut",
+  "aliases": [
+   "lock",
+   "auto",
+   "shortcut",
+   "small",
+   "big",
+   "huge",
+   "apply",
+   "empty",
+   "public"
+  ]
+ },
+ {
+  "name": "fastvend",
+  "summary": "Toggle Fast Vend Shortcut",
+  "aliases": [
+   "vend",
+   "shortcut",
+   "buy",
+   "purchase"
+  ]
+ },
+ {
+  "name": "hidden",
+  "summary": "Show Detected Hidden Moderators",
+  "aliases": [
+   "hidden",
+   "mod",
+   "detect",
+   "@",
+   "ago",
+   "with proxy"
+  ]
+ },
+ {
+  "name": "keep",
+  "summary": "Save Current Proxy Settings",
+  "aliases": [
+   "save",
+   "keep",
+   "proxy",
+   "setting",
+   "current",
+   "command",
+   "enabled",
+   "all"
+  ]
+ },
+ {
+  "name": "logs",
+  "summary": "Proxy Logs Page",
+  "aliases": [
+   "saved",
+   "collected",
+   "drop",
+   "world",
+   "in",
+   "with",
+   "trade",
+   "history",
+   "join"
+  ]
+ },
+ {
+  "name": "autofarm",
+  "summary": "Auto Farm Page",
+  "aliases": [
+   "auto",
+   "farm",
+   "select",
+   "build",
+   "place",
+   "interval",
+   "block",
+   "ms",
+   "chand",
+   "pepper"
+  ]
+ },
+ {
+  "name": "farm",
+  "summary": "Enable AutoFarm Shortcut",
+  "aliases": [
+   "auto",
+   "farm",
+   "shortcut",
+   "enable",
+   "select",
+   "build",
+   "place",
+   "punch",
+   "block",
+   "ms",
+   "start"
+  ]
+ },
+ {
+  "name": "autoplant",
+  "summary": "Auto Plant Page",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start"
+  ]
+ },
+ {
+  "name": "plant",
+  "summary": "Enable Auto Plant Shortcut",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "farm",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start",
+   "enable",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autoharvest",
+  "summary": "Auto Harvest Page",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms"
+  ]
+ },
+ {
+  "name": "harvest",
+  "summary": "Enable Auto Harvest Shortcut",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms",
+   "shortcut",
+   "enable",
+   "start",
+   "available"
+  ]
+ },
+ {
+  "name": "providers",
+  "summary": "Enable Auto Harvest Providers Shortcut",
+  "aliases": [
+   "auto",
+   "provide",
+   "chicken",
+   "cow",
+   "atm",
+   "harvest",
+   "collect",
+   "punch",
+   "farm",
+   "enable",
+   "shortcut",
+   "produc"
+  ]
+ },
+ {
+  "name": "ui",
+  "summary": "Change UI Colors Page",
+  "aliases": [
+   "change",
+   "color",
+   "colour",
+   "ui",
+   "custom",
+   "any",
+   "select",
+   "text"
+  ]
+ },
+ {
+  "name": "speed",
+  "summary": "Custom Player Speed Page",
+  "aliases": [
+   "custom",
+   "change",
+   "float",
+   "fly",
+   "player",
+   "speed",
+   "jump",
+   "fall",
+   "slow",
+   "fast",
+   "gravity",
+   "water",
+   "swim"
+  ]
+ },
+ {
+  "name": "worlds",
+  "summary": "List of Worlds Owned by You",
+  "aliases": [
+   "you",
+   "own",
+   "wl",
+   "dl",
+   "list",
+   "world",
+   "name"
+  ]
+ },
+ {
+  "name": "auto",
+  "summary": "Auto Ban/Pull On Enter World Page",
+  "aliases": [
+   "enter",
+   "join",
+   "world",
+   "ban",
+   "pull",
+   "auto",
+   "player",
+   "growid",
+   "specific",
+   "all",
+   "any"
+  ]
+ },
+ {
+  "name": "pathfind",
+  "summary": "Pathfinder Settings",
+  "aliases": [
+   "pathfind",
+   "tp",
+   "setting",
+   "teleport",
+   "delay",
+   "speed",
+   "blocks",
+   "travel"
+  ]
+ },
+ {
+  "name": "locked",
+  "summary": "Show Locked Doors Label Text",
+  "aliases": [
+   "lock",
+   "door",
+   "public",
+   "closed",
+   "private",
+   "label",
+   "text",
+   "show",
+   "red",
+   "hidden"
+  ]
+ },
+ {
+  "name": "track",
+  "summary": "Shows Dropped/Collected Items By Other Players In Console",
+  "aliases": [
+   "console",
+   "drop",
+   "collect",
+   "item",
+   "other",
+   "player",
+   "track",
+   "amount",
+   "live"
+  ]
+ },
+ {
+  "name": "calc 10+6",
+  "summary": "Calculates & Solves Math Equations",
+  "aliases": [
+   "math",
+   "calc",
+   "solve",
+   "equation",
+   "number",
+   "+",
+   "*",
+   "/",
+   "sum",
+   "divide",
+   "equal",
+   "="
+  ]
+ },
+ {
+  "name": "crime",
+  "summary": "Enables Auto Crime Shortcut",
+  "aliases": [
+   "crime",
+   "shortcut",
+   "auto",
+   "card",
+   "fight",
+   "against",
+   "wave"
+  ]
+ },
+ {
+  "name": "titles",
+  "summary": "Visual Titles Page",
+  "aliases": [
+   "title",
+   "of",
+   "legend",
+   "name",
+   "g4g",
+   "doctor",
+   "dr.",
+   "custom",
+   "flag"
+  ]
+ },
+ {
+  "name": "acc",
+  "summary": "Enable Auto Accept Access",
+  "aliases": [
+   "accept",
+   "access",
+   "wl",
+   "shortcut",
+   "acess",
+   "acess",
+   "lock",
+   "to"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Fast Mag/Gaia/UT Retreive",
+  "aliases": [
+   "fast",
+   "magplant",
+   "mag",
+   "gaia",
+   "retreive",
+   "items",
+   "ut",
+   "unstable",
+   "5000",
+   "enable"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` \"You need to be Level to break that\" Text",
+  "aliases": [
+   "hide",
+   "you need",
+   "to be",
+   "level",
+   "to break",
+   "break that",
+   "need to",
+   "roulette",
+   "spin",
+   "spinning",
+   "spining",
+   "hide text"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Antipunch",
+  "aliases": [
+   "anti",
+   "punch",
+   "antipunch",
+   "jammer",
+   "hit",
+   "move"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Anti Lava Damage",
+  "aliases": [
+   "anti",
+   "lava",
+   "damage",
+   "take",
+   "die",
+   "antilava"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Pathfinding Toggle",
+  "aliases": [
+   "teleport",
+   "tp",
+   "click",
+   "instant",
+   "pathfind",
+   "path",
+   "fast",
+   "travel",
+   "traveling",
+   "blocks"
+  ]
+ },
+ {
+  "name": "autocook",
+  "summary": "Auto Cook Page",
+  "aliases": [
+   "cook",
+   "auto",
+   "autocook",
+   "food",
+   "ingredients",
+   "oven",
+   "toss",
+   "star"
+  ]
+ },
+ {
+  "name": "startcook",
+  "summary": "`2Start`` Auto Cooking",
+  "aliases": [
+   "cook",
+   "auto",
+   "start",
+   "begin",
+   "autocook",
+   "food",
+   "ingredient",
+   "toss",
+   "oven",
+   "star"
+  ]
+ },
+ {
+  "name": "clothes",
+  "summary": "Visual Clothes Equip",
+  "aliases": [
+   "clothe",
+   "clothes",
+   "find",
+   "equip",
+   "put on",
+   "legendary",
+   "item",
+   "wings",
+   "rayman",
+   "proxy",
+   "visual",
+   "fake"
+  ]
+ },
+ {
+  "name": "find",
+  "summary": "Find Any Growtopia Item",
+  "aliases": [
+   "find",
+   "item",
+   "itemid",
+   "seeds",
+   "finder",
+   "item id",
+   "search",
+   "visual",
+   "clothes",
+   "rarity",
+   "id",
+   "results",
+   "inventory",
+   "add"
+  ]
+ },
+ {
+  "name": "fish",
+  "summary": "Toggle Shortcut Autofish",
+  "aliases": [
+   "fish",
+   "bait",
+   "water",
+   "rod",
+   "auto",
+   "shortcut",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Autofish",
+  "aliases": [
+   "fish",
+   "water",
+   "bait",
+   "rod",
+   "auto",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Consumables Autobanner",
+  "aliases": [
+   "consumables",
+   "use",
+   "balloon",
+   "crime",
+   "fire",
+   "pocket",
+   "ban",
+   "consumable",
+   "lighter",
+   "autoban"
+  ]
+ },
+ {
+  "name": "wrench",
+  "summary": "Fast Wrench Mode",
+  "aliases": [
+   "wrench",
+   "mode",
+   "pull",
+   "kick",
+   "ban",
+   "right",
+   "click",
+   "close",
+   "open",
+   "entrance",
+   "door",
+   "fast"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` REME Number Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "reme",
+   "number",
+   "spin",
+   "show",
+   "display"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Real/Fake Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "fake",
+   "real",
+   "number",
+   "spin",
+   "show",
+   "display",
+   "type",
+   "check"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Last Roulette Spin",
+  "aliases": [
+   "roulette",
+   "roulette",
+   "rulete",
+   "wheel",
+   "last",
+   "recent",
+   "number",
+   "show",
+   "display",
+   "spin",
+   "player",
+   "name"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Ping Latency",
+  "aliases": [
+   "ping",
+   "number",
+   "name",
+   "green",
+   "check",
+   "latency",
+   "ms",
+   "display",
+   "show",
+   "next"
+  ]
+ },
+ {
+  "name": "dice",
+  "summary": "Fast Roll Dice",
+  "aliases": [
+   "roll",
+   "number",
+   "fast",
+   "dice",
+   "random",
+   "speed",
+   "instant",
+   "show"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Collected Gem Count",
+  "aliases": [
+   "gem",
+   "show",
+   "collected",
+   "colected",
+   "amount",
+   "+",
+   "lost",
+   "pickup",
+   "pick up",
+   "take",
+   "how many"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Public Entrances/Gates",
+  "aliases": [
+   "show",
+   "public",
+   "closed",
+   "red",
+   "green",
+   "door",
+   "color",
+   "display",
+   "gate",
+   "open"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` Private Messages",
+  "aliases": [
+   "hide",
+   "private",
+   "msg",
+   "spam",
+   "message",
+   "bots"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Auto Mod Detect",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "ban",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Mod Detect Settings",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban",
+   "all",
+   "access",
+   "acess",
+   "acces",
+   "admin",
+   "collect",
+   "world",
+   "join"
+  ]
+ },
+ {
+  "name": "pkickall",
+  "summary": "Fast Kick All",
+  "aliases": [
+   "kick",
+   "all",
+   "respawn",
+   "people",
+   "die"
+  ]
+ },
+ {
+  "name": "world",
+  "summary": "World Options & Average People Count",
+  "aliases": [
+   "world",
+   "trade",
+   "unban",
+   "info",
+   "data",
+   "average",
+   "based",
+   "count",
+   "amount",
+   "people",
+   "player",
+   "number"
+  ]
+ },
+ {
+  "name": "proxy",
+  "summary": "Proxy Commands List",
+  "aliases": [
+   "cmd",
+   "commands",
+   "proxy",
+   "info",
+   "all",
+   "feature"
+  ]
+ },
+ {
+  "name": "hotkey",
+  "summary": "Custom Hotkeys",
+  "aliases": [
+   "hotkey",
+   "key",
+   "keyboard",
+   "command",
+   "custom",
+   "list",
+   "none"
+  ]
+ },
+ {
+  "name": "settings",
+  "summary": "Proxy Settings",
+  "aliases": [
+   "setting",
+   "config",
+   "load",
+   "save",
+   "slot",
+   "main",
+   "delete",
+   "reset",
+   "feature"
+  ]
+ },
+ {
+  "name": "gs",
+  "summary": "Free Growscan 9000",
+  "aliases": [
+   "gs",
+   "growscan",
+   "9000",
+   "items",
+   "blocks",
+   "floating",
+   "world",
+   "free",
+   "show",
+   "stats",
+   "tree",
+   "fruits",
+   "view"
+  ]
+ },
+ {
+  "name": "scan",
+  "summary": "`2Enable`` Free Extract-O-Snap",
+  "aliases": [
+   "take",
+   "items",
+   "collect",
+   "only",
+   "1",
+   "check",
+   "tile",
+   "scan",
+   "extract",
+   "snap",
+   "-o-",
+   "free",
+   "floating",
+   "punch"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Main Options Page",
+  "aliases": [
+   "option",
+   "main",
+   "list",
+   "all",
+   "select",
+   "checkbox"
+  ]
+ },
+ {
+  "name": "country",
+  "summary": "Country Flag Changer",
+  "aliases": [
+   "country",
+   "flag",
+   "change",
+   "nepal",
+   "countries",
+   "custom"
+  ]
+ },
+ {
+  "name": "vend",
+  "summary": "Vending Page",
+  "aliases": [
+   "vend",
+   "buy",
+   "purchase",
+   "fast",
+   "restock",
+   "stock",
+   "items",
+   "withdraw",
+   "take",
+   "wls"
+  ]
+ },
+ {
+  "name": "reset",
+  "summary": "Reset all /pos for autohost",
+  "aliases": [
+   "autohost",
+   "host",
+   "reset",
+   "pos",
+   "all",
+   "tp",
+   "win1",
+   "win2",
+   "win3",
+   "win4"
+  ]
+ },
+ {
+  "name": "unequip",
+  "summary": "Unequips All Visual Clothes",
+  "aliases": [
+   "equip",
+   "visual",
+   "clothes",
+   "take",
+   "off",
+   "naked"
+  ]
+ },
+ {
+  "name": "autocollect",
+  "summary": "Autocollect Page",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway"
+  ]
+ },
+ {
+  "name": "collect",
+  "summary": "Fast Collect Floating Items Once Shortcut",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway",
+   "once",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "blocks",
+  "summary": "Show Growscan 9000 Blocks Shortcut",
+  "aliases": [
+   "blocks",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world"
+  ]
+ },
+ {
+  "name": "items",
+  "summary": "Show Growscan 9000 Floating Items Shortcut",
+  "aliases": [
+   "floating",
+   "item",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world",
+   "gem"
+  ]
+ },
+ {
+  "name": "check",
+  "summary": "Display Account Untradeable Items & Role Quests & Level",
+  "aliases": [
+   "level",
+   "account",
+   "untrade",
+   "tradeable",
+   "display",
+   "role",
+   "quest",
+   "info"
+  ]
+ },
+ {
+  "name": "render",
+  "summary": "Generate World Render Picture",
+  "aliases": [
+   "generate",
+   "world",
+   "render",
+   "picture",
+   "png",
+   "image",
+   "full"
+  ]
+ },
+ {
+  "name": "weather",
+  "summary": "Visual Weather Page",
+  "aliases": [
+   "weather",
+   "visual",
+   "machine",
+   "custom",
+   "background"
+  ]
+ },
+ {
+  "name": "tree",
+  "summary": "Show Fully Grown Planted Seeds Fruits",
+  "aliases": [
+   "fruit",
+   "tree",
+   "fully",
+   "grow",
+   "plant",
+   "seed",
+   "amount",
+   "number",
+   "show"
+  ]
+ },
+ {
+  "name": "chest",
+  "summary": "Show Items Inside Chest",
+  "aliases": [
+   "chest",
+   "items",
+   "show",
+   "inside",
+   "closed"
+  ]
+ },
+ {
+  "name": "spirit",
+  "summary": "Show Spirit Board Info (Clothing item & command)",
+  "aliases": [
+   "spirit",
+   "board",
+   "info",
+   "clothing",
+   "boss",
+   "ghost",
+   "dark"
+  ]
+ },
+ {
+  "name": "logoff",
+  "summary": "Fast Log Off From Growtopia",
+  "aliases": [
+   "log",
+   "off",
+   "out",
+   "disconnect",
+   "account"
+  ]
+ },
+ {
+  "name": "server",
+  "summary": "Show Growtopia Server Info",
+  "aliases": [
+   "growtopia",
+   "server",
+   "info",
+   "address",
+   "meta"
+  ]
+ },
+ {
+  "name": "pvend [Item Name]",
+  "summary": "Fast Pathfind To The Cheapest Vending Machine Selling [Item Name]",
+  "aliases": [
+   "vend",
+   "sell",
+   "buy",
+   "purchase",
+   "cheap",
+   "pathfind",
+   "find",
+   "item"
+  ]
+ },
+ {
+  "name": "pfind [Item Name]",
+  "summary": "Fast Pathfind To Closest Floating [Item Name] In The World",
+  "aliases": [
+   "closest",
+   "pathfind",
+   "item",
+   "tp",
+   "collect",
+   "teleport"
+  ]
+ },
+ {
+  "name": "switch",
+  "summary": "Fast Account Switch Page",
+  "aliases": [
+   "account",
+   "switch",
+   "login",
+   "password",
+   "growid",
+   "save"
+  ]
+ },
+ {
+  "name": "parkour",
+  "summary": "Fast Complete WolfWorld & ClashParkour Worlds",
+  "aliases": [
+   "finish",
+   "complete",
+   "parkour",
+   "wolf",
+   "world",
+   "clash",
+   "pathfind"
+  ]
+ },
+ {
+  "name": "list",
+  "summary": "Saved Worlds Page",
+  "aliases": [
+   "save",
+   "worlds",
+   "warp",
+   "list",
+   "doorid",
+   "all",
+   "name"
+  ]
+ },
+ {
+  "name": "gazette",
+  "summary": "Real Growtopia News Gazette",
+  "aliases": [
+   "real",
+   "growtopia",
+   "news",
+   "gazette",
+   "news"
+  ]
+ },
+ {
+  "name": "shop",
+  "summary": "Fast Auto Purchase From Growtopia Shop",
+  "aliases": [
+   "shop",
+   "fast",
+   "purchase",
+   "bulk",
+   "growtopia",
+   "buy",
+   "gems",
+   "ssp"
+  ]
+ },
+ {
+  "name": "lost",
+  "summary": "Fast Small & Big & Huge Locks Apply",
+  "aliases": [
+   "apply",
+   "small",
+   "big",
+   "huge",
+   "lock",
+   "public",
+   "ignore",
+   "empty",
+   "space",
+   "open"
+  ]
+ },
+ {
+  "name": "moddetect",
+  "summary": "Toggle Mod Detect Shortcut",
+  "aliases": [
+   "mod",
+   "detect",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autolock",
+  "summary": "Toggle Auto Wrench Lock Shortcut",
+  "aliases": [
+   "lock",
+   "auto",
+   "shortcut",
+   "small",
+   "big",
+   "huge",
+   "apply",
+   "empty",
+   "public"
+  ]
+ },
+ {
+  "name": "fastvend",
+  "summary": "Toggle Fast Vend Shortcut",
+  "aliases": [
+   "vend",
+   "shortcut",
+   "buy",
+   "purchase"
+  ]
+ },
+ {
+  "name": "hidden",
+  "summary": "Show Detected Hidden Moderators",
+  "aliases": [
+   "hidden",
+   "mod",
+   "detect",
+   "@",
+   "ago",
+   "with proxy"
+  ]
+ },
+ {
+  "name": "keep",
+  "summary": "Save Current Proxy Settings",
+  "aliases": [
+   "save",
+   "keep",
+   "proxy",
+   "setting",
+   "current",
+   "command",
+   "enabled",
+   "all"
+  ]
+ },
+ {
+  "name": "logs",
+  "summary": "Proxy Logs Page",
+  "aliases": [
+   "saved",
+   "collected",
+   "drop",
+   "world",
+   "in",
+   "with",
+   "trade",
+   "history",
+   "join"
+  ]
+ },
+ {
+  "name": "autofarm",
+  "summary": "Auto Farm Page",
+  "aliases": [
+   "auto",
+   "farm",
+   "select",
+   "build",
+   "place",
+   "interval",
+   "block",
+   "ms",
+   "chand",
+   "pepper"
+  ]
+ },
+ {
+  "name": "farm",
+  "summary": "Enable AutoFarm Shortcut",
+  "aliases": [
+   "auto",
+   "farm",
+   "shortcut",
+   "enable",
+   "select",
+   "build",
+   "place",
+   "punch",
+   "block",
+   "ms",
+   "start"
+  ]
+ },
+ {
+  "name": "autoplant",
+  "summary": "Auto Plant Page",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start"
+  ]
+ },
+ {
+  "name": "plant",
+  "summary": "Enable Auto Plant Shortcut",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "farm",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start",
+   "enable",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autoharvest",
+  "summary": "Auto Harvest Page",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms"
+  ]
+ },
+ {
+  "name": "harvest",
+  "summary": "Enable Auto Harvest Shortcut",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms",
+   "shortcut",
+   "enable",
+   "start",
+   "available"
+  ]
+ },
+ {
+  "name": "providers",
+  "summary": "Enable Auto Harvest Providers Shortcut",
+  "aliases": [
+   "auto",
+   "provide",
+   "chicken",
+   "cow",
+   "atm",
+   "harvest",
+   "collect",
+   "punch",
+   "farm",
+   "enable",
+   "shortcut",
+   "produc"
+  ]
+ },
+ {
+  "name": "ui",
+  "summary": "Change UI Colors Page",
+  "aliases": [
+   "change",
+   "color",
+   "colour",
+   "ui",
+   "custom",
+   "any",
+   "select",
+   "text"
+  ]
+ },
+ {
+  "name": "speed",
+  "summary": "Custom Player Speed Page",
+  "aliases": [
+   "custom",
+   "change",
+   "float",
+   "fly",
+   "player",
+   "speed",
+   "jump",
+   "fall",
+   "slow",
+   "fast",
+   "gravity",
+   "water",
+   "swim"
+  ]
+ },
+ {
+  "name": "worlds",
+  "summary": "List of Worlds Owned by You",
+  "aliases": [
+   "you",
+   "own",
+   "wl",
+   "dl",
+   "list",
+   "world",
+   "name"
+  ]
+ },
+ {
+  "name": "auto",
+  "summary": "Auto Ban/Pull On Enter World Page",
+  "aliases": [
+   "enter",
+   "join",
+   "world",
+   "ban",
+   "pull",
+   "auto",
+   "player",
+   "growid",
+   "specific",
+   "all",
+   "any"
+  ]
+ },
+ {
+  "name": "pathfind",
+  "summary": "Pathfinder Settings",
+  "aliases": [
+   "pathfind",
+   "tp",
+   "setting",
+   "teleport",
+   "delay",
+   "speed",
+   "blocks",
+   "travel"
+  ]
+ },
+ {
+  "name": "locked",
+  "summary": "Show Locked Doors Label Text",
+  "aliases": [
+   "lock",
+   "door",
+   "public",
+   "closed",
+   "private",
+   "label",
+   "text",
+   "show",
+   "red",
+   "hidden"
+  ]
+ },
+ {
+  "name": "track",
+  "summary": "Shows Dropped/Collected Items By Other Players In Console",
+  "aliases": [
+   "console",
+   "drop",
+   "collect",
+   "item",
+   "other",
+   "player",
+   "track",
+   "amount",
+   "live"
+  ]
+ },
+ {
+  "name": "calc 10+6",
+  "summary": "Calculates & Solves Math Equations",
+  "aliases": [
+   "math",
+   "calc",
+   "solve",
+   "equation",
+   "number",
+   "+",
+   "*",
+   "/",
+   "sum",
+   "divide",
+   "equal",
+   "="
+  ]
+ },
+ {
+  "name": "crime",
+  "summary": "Enables Auto Crime Shortcut",
+  "aliases": [
+   "crime",
+   "shortcut",
+   "auto",
+   "card",
+   "fight",
+   "against",
+   "wave"
+  ]
+ },
+ {
+  "name": "titles",
+  "summary": "Visual Titles Page",
+  "aliases": [
+   "title",
+   "of",
+   "legend",
+   "name",
+   "g4g",
+   "doctor",
+   "dr.",
+   "custom",
+   "flag"
+  ]
+ },
+ {
+  "name": "acc",
+  "summary": "Enable Auto Accept Access",
+  "aliases": [
+   "accept",
+   "access",
+   "wl",
+   "shortcut",
+   "acess",
+   "acess",
+   "lock",
+   "to"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Fast Mag/Gaia/UT Retreive",
+  "aliases": [
+   "fast",
+   "magplant",
+   "mag",
+   "gaia",
+   "retreive",
+   "items",
+   "ut",
+   "unstable",
+   "5000",
+   "enable"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` \"You need to be Level to break that\" Text",
+  "aliases": [
+   "hide",
+   "you need",
+   "to be",
+   "level",
+   "to break",
+   "break that",
+   "need to",
+   "roulette",
+   "spin",
+   "spinning",
+   "spining",
+   "hide text"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Antipunch",
+  "aliases": [
+   "anti",
+   "punch",
+   "antipunch",
+   "jammer",
+   "hit",
+   "move"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Anti Lava Damage",
+  "aliases": [
+   "anti",
+   "lava",
+   "damage",
+   "take",
+   "die",
+   "antilava"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Pathfinding Toggle",
+  "aliases": [
+   "teleport",
+   "tp",
+   "click",
+   "instant",
+   "pathfind",
+   "path",
+   "fast",
+   "travel",
+   "traveling",
+   "blocks"
+  ]
+ },
+ {
+  "name": "autocook",
+  "summary": "Auto Cook Page",
+  "aliases": [
+   "cook",
+   "auto",
+   "autocook",
+   "food",
+   "ingredients",
+   "oven",
+   "toss",
+   "star"
+  ]
+ },
+ {
+  "name": "startcook",
+  "summary": "`2Start`` Auto Cooking",
+  "aliases": [
+   "cook",
+   "auto",
+   "start",
+   "begin",
+   "autocook",
+   "food",
+   "ingredient",
+   "toss",
+   "oven",
+   "star"
+  ]
+ },
+ {
+  "name": "clothes",
+  "summary": "Visual Clothes Equip",
+  "aliases": [
+   "clothe",
+   "clothes",
+   "find",
+   "equip",
+   "put on",
+   "legendary",
+   "item",
+   "wings",
+   "rayman",
+   "proxy",
+   "visual",
+   "fake"
+  ]
+ },
+ {
+  "name": "find",
+  "summary": "Find Any Growtopia Item",
+  "aliases": [
+   "find",
+   "item",
+   "itemid",
+   "seeds",
+   "finder",
+   "item id",
+   "search",
+   "visual",
+   "clothes",
+   "rarity",
+   "id",
+   "results",
+   "inventory",
+   "add"
+  ]
+ },
+ {
+  "name": "fish",
+  "summary": "Toggle Shortcut Autofish",
+  "aliases": [
+   "fish",
+   "bait",
+   "water",
+   "rod",
+   "auto",
+   "shortcut",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Autofish",
+  "aliases": [
+   "fish",
+   "water",
+   "bait",
+   "rod",
+   "auto",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Consumables Autobanner",
+  "aliases": [
+   "consumables",
+   "use",
+   "balloon",
+   "crime",
+   "fire",
+   "pocket",
+   "ban",
+   "consumable",
+   "lighter",
+   "autoban"
+  ]
+ },
+ {
+  "name": "wrench",
+  "summary": "Fast Wrench Mode",
+  "aliases": [
+   "wrench",
+   "mode",
+   "pull",
+   "kick",
+   "ban",
+   "right",
+   "click",
+   "close",
+   "open",
+   "entrance",
+   "door",
+   "fast"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` REME Number Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "reme",
+   "number",
+   "spin",
+   "show",
+   "display"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Real/Fake Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "fake",
+   "real",
+   "number",
+   "spin",
+   "show",
+   "display",
+   "type",
+   "check"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Last Roulette Spin",
+  "aliases": [
+   "roulette",
+   "roulette",
+   "rulete",
+   "wheel",
+   "last",
+   "recent",
+   "number",
+   "show",
+   "display",
+   "spin",
+   "player",
+   "name"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Ping Latency",
+  "aliases": [
+   "ping",
+   "number",
+   "name",
+   "green",
+   "check",
+   "latency",
+   "ms",
+   "display",
+   "show",
+   "next"
+  ]
+ },
+ {
+  "name": "dice",
+  "summary": "Fast Roll Dice",
+  "aliases": [
+   "roll",
+   "number",
+   "fast",
+   "dice",
+   "random",
+   "speed",
+   "instant",
+   "show"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Collected Gem Count",
+  "aliases": [
+   "gem",
+   "show",
+   "collected",
+   "colected",
+   "amount",
+   "+",
+   "lost",
+   "pickup",
+   "pick up",
+   "take",
+   "how many"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Public Entrances/Gates",
+  "aliases": [
+   "show",
+   "public",
+   "closed",
+   "red",
+   "green",
+   "door",
+   "color",
+   "display",
+   "gate",
+   "open"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` Private Messages",
+  "aliases": [
+   "hide",
+   "private",
+   "msg",
+   "spam",
+   "message",
+   "bots"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Auto Mod Detect",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "ban",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Mod Detect Settings",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban",
+   "all",
+   "access",
+   "acess",
+   "acces",
+   "admin",
+   "collect",
+   "world",
+   "join"
+  ]
+ },
+ {
+  "name": "pkickall",
+  "summary": "Fast Kick All",
+  "aliases": [
+   "kick",
+   "all",
+   "respawn",
+   "people",
+   "die"
+  ]
+ },
+ {
+  "name": "world",
+  "summary": "World Options & Average People Count",
+  "aliases": [
+   "world",
+   "trade",
+   "unban",
+   "info",
+   "data",
+   "average",
+   "based",
+   "count",
+   "amount",
+   "people",
+   "player",
+   "number"
+  ]
+ },
+ {
+  "name": "proxy",
+  "summary": "Proxy Commands List",
+  "aliases": [
+   "cmd",
+   "commands",
+   "proxy",
+   "info",
+   "all",
+   "feature"
+  ]
+ },
+ {
+  "name": "hotkey",
+  "summary": "Custom Hotkeys",
+  "aliases": [
+   "hotkey",
+   "key",
+   "keyboard",
+   "command",
+   "custom",
+   "list",
+   "none"
+  ]
+ },
+ {
+  "name": "settings",
+  "summary": "Proxy Settings",
+  "aliases": [
+   "setting",
+   "config",
+   "load",
+   "save",
+   "slot",
+   "main",
+   "delete",
+   "reset",
+   "feature"
+  ]
+ },
+ {
+  "name": "gs",
+  "summary": "Free Growscan 9000",
+  "aliases": [
+   "gs",
+   "growscan",
+   "9000",
+   "items",
+   "blocks",
+   "floating",
+   "world",
+   "free",
+   "show",
+   "stats",
+   "tree",
+   "fruits",
+   "view"
+  ]
+ },
+ {
+  "name": "scan",
+  "summary": "`2Enable`` Free Extract-O-Snap",
+  "aliases": [
+   "take",
+   "items",
+   "collect",
+   "only",
+   "1",
+   "check",
+   "tile",
+   "scan",
+   "extract",
+   "snap",
+   "-o-",
+   "free",
+   "floating",
+   "punch"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Main Options Page",
+  "aliases": [
+   "option",
+   "main",
+   "list",
+   "all",
+   "select",
+   "checkbox"
+  ]
+ },
+ {
+  "name": "country",
+  "summary": "Country Flag Changer",
+  "aliases": [
+   "country",
+   "flag",
+   "change",
+   "nepal",
+   "countries",
+   "custom"
+  ]
+ },
+ {
+  "name": "vend",
+  "summary": "Vending Page",
+  "aliases": [
+   "vend",
+   "buy",
+   "purchase",
+   "fast",
+   "restock",
+   "stock",
+   "items",
+   "withdraw",
+   "take",
+   "wls"
+  ]
+ },
+ {
+  "name": "reset",
+  "summary": "Reset all /pos for autohost",
+  "aliases": [
+   "autohost",
+   "host",
+   "reset",
+   "pos",
+   "all",
+   "tp",
+   "win1",
+   "win2",
+   "win3",
+   "win4"
+  ]
+ },
+ {
+  "name": "unequip",
+  "summary": "Unequips All Visual Clothes",
+  "aliases": [
+   "equip",
+   "visual",
+   "clothes",
+   "take",
+   "off",
+   "naked"
+  ]
+ },
+ {
+  "name": "autocollect",
+  "summary": "Autocollect Page",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway"
+  ]
+ },
+ {
+  "name": "collect",
+  "summary": "Fast Collect Floating Items Once Shortcut",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway",
+   "once",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "blocks",
+  "summary": "Show Growscan 9000 Blocks Shortcut",
+  "aliases": [
+   "blocks",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world"
+  ]
+ },
+ {
+  "name": "items",
+  "summary": "Show Growscan 9000 Floating Items Shortcut",
+  "aliases": [
+   "floating",
+   "item",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world",
+   "gem"
+  ]
+ },
+ {
+  "name": "check",
+  "summary": "Display Account Untradeable Items & Role Quests & Level",
+  "aliases": [
+   "level",
+   "account",
+   "untrade",
+   "tradeable",
+   "display",
+   "role",
+   "quest",
+   "info"
+  ]
+ },
+ {
+  "name": "render",
+  "summary": "Generate World Render Picture",
+  "aliases": [
+   "generate",
+   "world",
+   "render",
+   "picture",
+   "png",
+   "image",
+   "full"
+  ]
+ },
+ {
+  "name": "weather",
+  "summary": "Visual Weather Page",
+  "aliases": [
+   "weather",
+   "visual",
+   "machine",
+   "custom",
+   "background"
+  ]
+ },
+ {
+  "name": "tree",
+  "summary": "Show Fully Grown Planted Seeds Fruits",
+  "aliases": [
+   "fruit",
+   "tree",
+   "fully",
+   "grow",
+   "plant",
+   "seed",
+   "amount",
+   "number",
+   "show"
+  ]
+ },
+ {
+  "name": "chest",
+  "summary": "Show Items Inside Chest",
+  "aliases": [
+   "chest",
+   "items",
+   "show",
+   "inside",
+   "closed"
+  ]
+ },
+ {
+  "name": "spirit",
+  "summary": "Show Spirit Board Info (Clothing item & command)",
+  "aliases": [
+   "spirit",
+   "board",
+   "info",
+   "clothing",
+   "boss",
+   "ghost",
+   "dark"
+  ]
+ },
+ {
+  "name": "logoff",
+  "summary": "Fast Log Off From Growtopia",
+  "aliases": [
+   "log",
+   "off",
+   "out",
+   "disconnect",
+   "account"
+  ]
+ },
+ {
+  "name": "server",
+  "summary": "Show Growtopia Server Info",
+  "aliases": [
+   "growtopia",
+   "server",
+   "info",
+   "address",
+   "meta"
+  ]
+ },
+ {
+  "name": "pvend [Item Name]",
+  "summary": "Fast Pathfind To The Cheapest Vending Machine Selling [Item Name]",
+  "aliases": [
+   "vend",
+   "sell",
+   "buy",
+   "purchase",
+   "cheap",
+   "pathfind",
+   "find",
+   "item"
+  ]
+ },
+ {
+  "name": "pfind [Item Name]",
+  "summary": "Fast Pathfind To Closest Floating [Item Name] In The World",
+  "aliases": [
+   "closest",
+   "pathfind",
+   "item",
+   "tp",
+   "collect",
+   "teleport"
+  ]
+ },
+ {
+  "name": "switch",
+  "summary": "Fast Account Switch Page",
+  "aliases": [
+   "account",
+   "switch",
+   "login",
+   "password",
+   "growid",
+   "save"
+  ]
+ },
+ {
+  "name": "parkour",
+  "summary": "Fast Complete WolfWorld & ClashParkour Worlds",
+  "aliases": [
+   "finish",
+   "complete",
+   "parkour",
+   "wolf",
+   "world",
+   "clash",
+   "pathfind"
+  ]
+ },
+ {
+  "name": "list",
+  "summary": "Saved Worlds Page",
+  "aliases": [
+   "save",
+   "worlds",
+   "warp",
+   "list",
+   "doorid",
+   "all",
+   "name"
+  ]
+ },
+ {
+  "name": "gazette",
+  "summary": "Real Growtopia News Gazette",
+  "aliases": [
+   "real",
+   "growtopia",
+   "news",
+   "gazette",
+   "news"
+  ]
+ },
+ {
+  "name": "shop",
+  "summary": "Fast Auto Purchase From Growtopia Shop",
+  "aliases": [
+   "shop",
+   "fast",
+   "purchase",
+   "bulk",
+   "growtopia",
+   "buy",
+   "gems",
+   "ssp"
+  ]
+ },
+ {
+  "name": "lost",
+  "summary": "Fast Small & Big & Huge Locks Apply",
+  "aliases": [
+   "apply",
+   "small",
+   "big",
+   "huge",
+   "lock",
+   "public",
+   "ignore",
+   "empty",
+   "space",
+   "open"
+  ]
+ },
+ {
+  "name": "moddetect",
+  "summary": "Toggle Mod Detect Shortcut",
+  "aliases": [
+   "mod",
+   "detect",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autolock",
+  "summary": "Toggle Auto Wrench Lock Shortcut",
+  "aliases": [
+   "lock",
+   "auto",
+   "shortcut",
+   "small",
+   "big",
+   "huge",
+   "apply",
+   "empty",
+   "public"
+  ]
+ },
+ {
+  "name": "fastvend",
+  "summary": "Toggle Fast Vend Shortcut",
+  "aliases": [
+   "vend",
+   "shortcut",
+   "buy",
+   "purchase"
+  ]
+ },
+ {
+  "name": "hidden",
+  "summary": "Show Detected Hidden Moderators",
+  "aliases": [
+   "hidden",
+   "mod",
+   "detect",
+   "@",
+   "ago",
+   "with proxy"
+  ]
+ },
+ {
+  "name": "keep",
+  "summary": "Save Current Proxy Settings",
+  "aliases": [
+   "save",
+   "keep",
+   "proxy",
+   "setting",
+   "current",
+   "command",
+   "enabled",
+   "all"
+  ]
+ },
+ {
+  "name": "logs",
+  "summary": "Proxy Logs Page",
+  "aliases": [
+   "saved",
+   "collected",
+   "drop",
+   "world",
+   "in",
+   "with",
+   "trade",
+   "history",
+   "join"
+  ]
+ },
+ {
+  "name": "autofarm",
+  "summary": "Auto Farm Page",
+  "aliases": [
+   "auto",
+   "farm",
+   "select",
+   "build",
+   "place",
+   "interval",
+   "block",
+   "ms",
+   "chand",
+   "pepper"
+  ]
+ },
+ {
+  "name": "farm",
+  "summary": "Enable AutoFarm Shortcut",
+  "aliases": [
+   "auto",
+   "farm",
+   "shortcut",
+   "enable",
+   "select",
+   "build",
+   "place",
+   "punch",
+   "block",
+   "ms",
+   "start"
+  ]
+ },
+ {
+  "name": "autoplant",
+  "summary": "Auto Plant Page",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start"
+  ]
+ },
+ {
+  "name": "plant",
+  "summary": "Enable Auto Plant Shortcut",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "farm",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start",
+   "enable",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autoharvest",
+  "summary": "Auto Harvest Page",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms"
+  ]
+ },
+ {
+  "name": "harvest",
+  "summary": "Enable Auto Harvest Shortcut",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms",
+   "shortcut",
+   "enable",
+   "start",
+   "available"
+  ]
+ },
+ {
+  "name": "providers",
+  "summary": "Enable Auto Harvest Providers Shortcut",
+  "aliases": [
+   "auto",
+   "provide",
+   "chicken",
+   "cow",
+   "atm",
+   "harvest",
+   "collect",
+   "punch",
+   "farm",
+   "enable",
+   "shortcut",
+   "produc"
+  ]
+ },
+ {
+  "name": "ui",
+  "summary": "Change UI Colors Page",
+  "aliases": [
+   "change",
+   "color",
+   "colour",
+   "ui",
+   "custom",
+   "any",
+   "select",
+   "text"
+  ]
+ },
+ {
+  "name": "speed",
+  "summary": "Custom Player Speed Page",
+  "aliases": [
+   "custom",
+   "change",
+   "float",
+   "fly",
+   "player",
+   "speed",
+   "jump",
+   "fall",
+   "slow",
+   "fast",
+   "gravity",
+   "water",
+   "swim"
+  ]
+ },
+ {
+  "name": "worlds",
+  "summary": "List of Worlds Owned by You",
+  "aliases": [
+   "you",
+   "own",
+   "wl",
+   "dl",
+   "list",
+   "world",
+   "name"
+  ]
+ },
+ {
+  "name": "auto",
+  "summary": "Auto Ban/Pull On Enter World Page",
+  "aliases": [
+   "enter",
+   "join",
+   "world",
+   "ban",
+   "pull",
+   "auto",
+   "player",
+   "growid",
+   "specific",
+   "all",
+   "any"
+  ]
+ },
+ {
+  "name": "pathfind",
+  "summary": "Pathfinder Settings",
+  "aliases": [
+   "pathfind",
+   "tp",
+   "setting",
+   "teleport",
+   "delay",
+   "speed",
+   "blocks",
+   "travel"
+  ]
+ },
+ {
+  "name": "locked",
+  "summary": "Show Locked Doors Label Text",
+  "aliases": [
+   "lock",
+   "door",
+   "public",
+   "closed",
+   "private",
+   "label",
+   "text",
+   "show",
+   "red",
+   "hidden"
+  ]
+ },
+ {
+  "name": "track",
+  "summary": "Shows Dropped/Collected Items By Other Players In Console",
+  "aliases": [
+   "console",
+   "drop",
+   "collect",
+   "item",
+   "other",
+   "player",
+   "track",
+   "amount",
+   "live"
+  ]
+ },
+ {
+  "name": "calc 10+6",
+  "summary": "Calculates & Solves Math Equations",
+  "aliases": [
+   "math",
+   "calc",
+   "solve",
+   "equation",
+   "number",
+   "+",
+   "*",
+   "/",
+   "sum",
+   "divide",
+   "equal",
+   "="
+  ]
+ },
+ {
+  "name": "crime",
+  "summary": "Enables Auto Crime Shortcut",
+  "aliases": [
+   "crime",
+   "shortcut",
+   "auto",
+   "card",
+   "fight",
+   "against",
+   "wave"
+  ]
+ },
+ {
+  "name": "titles",
+  "summary": "Visual Titles Page",
+  "aliases": [
+   "title",
+   "of",
+   "legend",
+   "name",
+   "g4g",
+   "doctor",
+   "dr.",
+   "custom",
+   "flag"
+  ]
+ },
+ {
+  "name": "acc",
+  "summary": "Enable Auto Accept Access",
+  "aliases": [
+   "accept",
+   "access",
+   "wl",
+   "shortcut",
+   "acess",
+   "acess",
+   "lock",
+   "to"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Fast Mag/Gaia/UT Retreive",
+  "aliases": [
+   "fast",
+   "magplant",
+   "mag",
+   "gaia",
+   "retreive",
+   "items",
+   "ut",
+   "unstable",
+   "5000",
+   "enable"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` \"You need to be Level to break that\" Text",
+  "aliases": [
+   "hide",
+   "you need",
+   "to be",
+   "level",
+   "to break",
+   "break that",
+   "need to",
+   "roulette",
+   "spin",
+   "spinning",
+   "spining",
+   "hide text"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Antipunch",
+  "aliases": [
+   "anti",
+   "punch",
+   "antipunch",
+   "jammer",
+   "hit",
+   "move"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Anti Lava Damage",
+  "aliases": [
+   "anti",
+   "lava",
+   "damage",
+   "take",
+   "die",
+   "antilava"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Pathfinding Toggle",
+  "aliases": [
+   "teleport",
+   "tp",
+   "click",
+   "instant",
+   "pathfind",
+   "path",
+   "fast",
+   "travel",
+   "traveling",
+   "blocks"
+  ]
+ },
+ {
+  "name": "autocook",
+  "summary": "Auto Cook Page",
+  "aliases": [
+   "cook",
+   "auto",
+   "autocook",
+   "food",
+   "ingredients",
+   "oven",
+   "toss",
+   "star"
+  ]
+ },
+ {
+  "name": "startcook",
+  "summary": "`2Start`` Auto Cooking",
+  "aliases": [
+   "cook",
+   "auto",
+   "start",
+   "begin",
+   "autocook",
+   "food",
+   "ingredient",
+   "toss",
+   "oven",
+   "star"
+  ]
+ },
+ {
+  "name": "clothes",
+  "summary": "Visual Clothes Equip",
+  "aliases": [
+   "clothe",
+   "clothes",
+   "find",
+   "equip",
+   "put on",
+   "legendary",
+   "item",
+   "wings",
+   "rayman",
+   "proxy",
+   "visual",
+   "fake"
+  ]
+ },
+ {
+  "name": "find",
+  "summary": "Find Any Growtopia Item",
+  "aliases": [
+   "find",
+   "item",
+   "itemid",
+   "seeds",
+   "finder",
+   "item id",
+   "search",
+   "visual",
+   "clothes",
+   "rarity",
+   "id",
+   "results",
+   "inventory",
+   "add"
+  ]
+ },
+ {
+  "name": "fish",
+  "summary": "Toggle Shortcut Autofish",
+  "aliases": [
+   "fish",
+   "bait",
+   "water",
+   "rod",
+   "auto",
+   "shortcut",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Autofish",
+  "aliases": [
+   "fish",
+   "water",
+   "bait",
+   "rod",
+   "auto",
+   "toggle",
+   "worm",
+   "wiggly",
+   "lb"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Consumables Autobanner",
+  "aliases": [
+   "consumables",
+   "use",
+   "balloon",
+   "crime",
+   "fire",
+   "pocket",
+   "ban",
+   "consumable",
+   "lighter",
+   "autoban"
+  ]
+ },
+ {
+  "name": "wrench",
+  "summary": "Fast Wrench Mode",
+  "aliases": [
+   "wrench",
+   "mode",
+   "pull",
+   "kick",
+   "ban",
+   "right",
+   "click",
+   "close",
+   "open",
+   "entrance",
+   "door",
+   "fast"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` REME Number Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "reme",
+   "number",
+   "spin",
+   "show",
+   "display"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Real/Fake Spin",
+  "aliases": [
+   "roulette",
+   "roulete",
+   "wheel",
+   "punch",
+   "text",
+   "fake",
+   "real",
+   "number",
+   "spin",
+   "show",
+   "display",
+   "type",
+   "check"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Last Roulette Spin",
+  "aliases": [
+   "roulette",
+   "roulette",
+   "rulete",
+   "wheel",
+   "last",
+   "recent",
+   "number",
+   "show",
+   "display",
+   "spin",
+   "player",
+   "name"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Ping Latency",
+  "aliases": [
+   "ping",
+   "number",
+   "name",
+   "green",
+   "check",
+   "latency",
+   "ms",
+   "display",
+   "show",
+   "next"
+  ]
+ },
+ {
+  "name": "dice",
+  "summary": "Fast Roll Dice",
+  "aliases": [
+   "roll",
+   "number",
+   "fast",
+   "dice",
+   "random",
+   "speed",
+   "instant",
+   "show"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Collected Gem Count",
+  "aliases": [
+   "gem",
+   "show",
+   "collected",
+   "colected",
+   "amount",
+   "+",
+   "lost",
+   "pickup",
+   "pick up",
+   "take",
+   "how many"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`9Show`` Public Entrances/Gates",
+  "aliases": [
+   "show",
+   "public",
+   "closed",
+   "red",
+   "green",
+   "door",
+   "color",
+   "display",
+   "gate",
+   "open"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`aHide`` Private Messages",
+  "aliases": [
+   "hide",
+   "private",
+   "msg",
+   "spam",
+   "message",
+   "bots"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "`2Enable`` Auto Mod Detect",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "ban",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Mod Detect Settings",
+  "aliases": [
+   "mod",
+   "moderator",
+   "@",
+   "nuke",
+   "casino",
+   "detect",
+   "auto",
+   "exit",
+   "save",
+   "ban",
+   "all",
+   "access",
+   "acess",
+   "acces",
+   "admin",
+   "collect",
+   "world",
+   "join"
+  ]
+ },
+ {
+  "name": "pkickall",
+  "summary": "Fast Kick All",
+  "aliases": [
+   "kick",
+   "all",
+   "respawn",
+   "people",
+   "die"
+  ]
+ },
+ {
+  "name": "world",
+  "summary": "World Options & Average People Count",
+  "aliases": [
+   "world",
+   "trade",
+   "unban",
+   "info",
+   "data",
+   "average",
+   "based",
+   "count",
+   "amount",
+   "people",
+   "player",
+   "number"
+  ]
+ },
+ {
+  "name": "proxy",
+  "summary": "Proxy Commands List",
+  "aliases": [
+   "cmd",
+   "commands",
+   "proxy",
+   "info",
+   "all",
+   "feature"
+  ]
+ },
+ {
+  "name": "hotkey",
+  "summary": "Custom Hotkeys",
+  "aliases": [
+   "hotkey",
+   "key",
+   "keyboard",
+   "command",
+   "custom",
+   "list",
+   "none"
+  ]
+ },
+ {
+  "name": "settings",
+  "summary": "Proxy Settings",
+  "aliases": [
+   "setting",
+   "config",
+   "load",
+   "save",
+   "slot",
+   "main",
+   "delete",
+   "reset",
+   "feature"
+  ]
+ },
+ {
+  "name": "gs",
+  "summary": "Free Growscan 9000",
+  "aliases": [
+   "gs",
+   "growscan",
+   "9000",
+   "items",
+   "blocks",
+   "floating",
+   "world",
+   "free",
+   "show",
+   "stats",
+   "tree",
+   "fruits",
+   "view"
+  ]
+ },
+ {
+  "name": "scan",
+  "summary": "`2Enable`` Free Extract-O-Snap",
+  "aliases": [
+   "take",
+   "items",
+   "collect",
+   "only",
+   "1",
+   "check",
+   "tile",
+   "scan",
+   "extract",
+   "snap",
+   "-o-",
+   "free",
+   "floating",
+   "punch"
+  ]
+ },
+ {
+  "name": "options",
+  "summary": "Main Options Page",
+  "aliases": [
+   "option",
+   "main",
+   "list",
+   "all",
+   "select",
+   "checkbox"
+  ]
+ },
+ {
+  "name": "country",
+  "summary": "Country Flag Changer",
+  "aliases": [
+   "country",
+   "flag",
+   "change",
+   "nepal",
+   "countries",
+   "custom"
+  ]
+ },
+ {
+  "name": "vend",
+  "summary": "Vending Page",
+  "aliases": [
+   "vend",
+   "buy",
+   "purchase",
+   "fast",
+   "restock",
+   "stock",
+   "items",
+   "withdraw",
+   "take",
+   "wls"
+  ]
+ },
+ {
+  "name": "reset",
+  "summary": "Reset all /pos for autohost",
+  "aliases": [
+   "autohost",
+   "host",
+   "reset",
+   "pos",
+   "all",
+   "tp",
+   "win1",
+   "win2",
+   "win3",
+   "win4"
+  ]
+ },
+ {
+  "name": "unequip",
+  "summary": "Unequips All Visual Clothes",
+  "aliases": [
+   "equip",
+   "visual",
+   "clothes",
+   "take",
+   "off",
+   "naked"
+  ]
+ },
+ {
+  "name": "autocollect",
+  "summary": "Autocollect Page",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway"
+  ]
+ },
+ {
+  "name": "collect",
+  "summary": "Fast Collect Floating Items Once Shortcut",
+  "aliases": [
+   "collect",
+   "take",
+   "fast",
+   "items",
+   "floating",
+   "giveaway",
+   "once",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "blocks",
+  "summary": "Show Growscan 9000 Blocks Shortcut",
+  "aliases": [
+   "blocks",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world"
+  ]
+ },
+ {
+  "name": "items",
+  "summary": "Show Growscan 9000 Floating Items Shortcut",
+  "aliases": [
+   "floating",
+   "item",
+   "growscan",
+   "gs",
+   "shortcut",
+   "9000",
+   "world",
+   "gem"
+  ]
+ },
+ {
+  "name": "check",
+  "summary": "Display Account Untradeable Items & Role Quests & Level",
+  "aliases": [
+   "level",
+   "account",
+   "untrade",
+   "tradeable",
+   "display",
+   "role",
+   "quest",
+   "info"
+  ]
+ },
+ {
+  "name": "render",
+  "summary": "Generate World Render Picture",
+  "aliases": [
+   "generate",
+   "world",
+   "render",
+   "picture",
+   "png",
+   "image",
+   "full"
+  ]
+ },
+ {
+  "name": "weather",
+  "summary": "Visual Weather Page",
+  "aliases": [
+   "weather",
+   "visual",
+   "machine",
+   "custom",
+   "background"
+  ]
+ },
+ {
+  "name": "tree",
+  "summary": "Show Fully Grown Planted Seeds Fruits",
+  "aliases": [
+   "fruit",
+   "tree",
+   "fully",
+   "grow",
+   "plant",
+   "seed",
+   "amount",
+   "number",
+   "show"
+  ]
+ },
+ {
+  "name": "chest",
+  "summary": "Show Items Inside Chest",
+  "aliases": [
+   "chest",
+   "items",
+   "show",
+   "inside",
+   "closed"
+  ]
+ },
+ {
+  "name": "spirit",
+  "summary": "Show Spirit Board Info (Clothing item & command)",
+  "aliases": [
+   "spirit",
+   "board",
+   "info",
+   "clothing",
+   "boss",
+   "ghost",
+   "dark"
+  ]
+ },
+ {
+  "name": "logoff",
+  "summary": "Fast Log Off From Growtopia",
+  "aliases": [
+   "log",
+   "off",
+   "out",
+   "disconnect",
+   "account"
+  ]
+ },
+ {
+  "name": "server",
+  "summary": "Show Growtopia Server Info",
+  "aliases": [
+   "growtopia",
+   "server",
+   "info",
+   "address",
+   "meta"
+  ]
+ },
+ {
+  "name": "pvend [Item Name]",
+  "summary": "Fast Pathfind To The Cheapest Vending Machine Selling [Item Name]",
+  "aliases": [
+   "vend",
+   "sell",
+   "buy",
+   "purchase",
+   "cheap",
+   "pathfind",
+   "find",
+   "item"
+  ]
+ },
+ {
+  "name": "pfind [Item Name]",
+  "summary": "Fast Pathfind To Closest Floating [Item Name] In The World",
+  "aliases": [
+   "closest",
+   "pathfind",
+   "item",
+   "tp",
+   "collect",
+   "teleport"
+  ]
+ },
+ {
+  "name": "switch",
+  "summary": "Fast Account Switch Page",
+  "aliases": [
+   "account",
+   "switch",
+   "login",
+   "password",
+   "growid",
+   "save"
+  ]
+ },
+ {
+  "name": "parkour",
+  "summary": "Fast Complete WolfWorld & ClashParkour Worlds",
+  "aliases": [
+   "finish",
+   "complete",
+   "parkour",
+   "wolf",
+   "world",
+   "clash",
+   "pathfind"
+  ]
+ },
+ {
+  "name": "list",
+  "summary": "Saved Worlds Page",
+  "aliases": [
+   "save",
+   "worlds",
+   "warp",
+   "list",
+   "doorid",
+   "all",
+   "name"
+  ]
+ },
+ {
+  "name": "gazette",
+  "summary": "Real Growtopia News Gazette",
+  "aliases": [
+   "real",
+   "growtopia",
+   "news",
+   "gazette",
+   "news"
+  ]
+ },
+ {
+  "name": "shop",
+  "summary": "Fast Auto Purchase From Growtopia Shop",
+  "aliases": [
+   "shop",
+   "fast",
+   "purchase",
+   "bulk",
+   "growtopia",
+   "buy",
+   "gems",
+   "ssp"
+  ]
+ },
+ {
+  "name": "lost",
+  "summary": "Fast Small & Big & Huge Locks Apply",
+  "aliases": [
+   "apply",
+   "small",
+   "big",
+   "huge",
+   "lock",
+   "public",
+   "ignore",
+   "empty",
+   "space",
+   "open"
+  ]
+ },
+ {
+  "name": "moddetect",
+  "summary": "Toggle Mod Detect Shortcut",
+  "aliases": [
+   "mod",
+   "detect",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autolock",
+  "summary": "Toggle Auto Wrench Lock Shortcut",
+  "aliases": [
+   "lock",
+   "auto",
+   "shortcut",
+   "small",
+   "big",
+   "huge",
+   "apply",
+   "empty",
+   "public"
+  ]
+ },
+ {
+  "name": "fastvend",
+  "summary": "Toggle Fast Vend Shortcut",
+  "aliases": [
+   "vend",
+   "shortcut",
+   "buy",
+   "purchase"
+  ]
+ },
+ {
+  "name": "hidden",
+  "summary": "Show Detected Hidden Moderators",
+  "aliases": [
+   "hidden",
+   "mod",
+   "detect",
+   "@",
+   "ago",
+   "with proxy"
+  ]
+ },
+ {
+  "name": "keep",
+  "summary": "Save Current Proxy Settings",
+  "aliases": [
+   "save",
+   "keep",
+   "proxy",
+   "setting",
+   "current",
+   "command",
+   "enabled",
+   "all"
+  ]
+ },
+ {
+  "name": "logs",
+  "summary": "Proxy Logs Page",
+  "aliases": [
+   "saved",
+   "collected",
+   "drop",
+   "world",
+   "in",
+   "with",
+   "trade",
+   "history",
+   "join"
+  ]
+ },
+ {
+  "name": "autofarm",
+  "summary": "Auto Farm Page",
+  "aliases": [
+   "auto",
+   "farm",
+   "select",
+   "build",
+   "place",
+   "interval",
+   "block",
+   "ms",
+   "chand",
+   "pepper"
+  ]
+ },
+ {
+  "name": "farm",
+  "summary": "Enable AutoFarm Shortcut",
+  "aliases": [
+   "auto",
+   "farm",
+   "shortcut",
+   "enable",
+   "select",
+   "build",
+   "place",
+   "punch",
+   "block",
+   "ms",
+   "start"
+  ]
+ },
+ {
+  "name": "autoplant",
+  "summary": "Auto Plant Page",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start"
+  ]
+ },
+ {
+  "name": "plant",
+  "summary": "Enable Auto Plant Shortcut",
+  "aliases": [
+   "auto",
+   "plant",
+   "seed",
+   "grow",
+   "tree",
+   "farm",
+   "splice",
+   "ms",
+   "select",
+   "area",
+   "available",
+   "start",
+   "enable",
+   "shortcut"
+  ]
+ },
+ {
+  "name": "autoharvest",
+  "summary": "Auto Harvest Page",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms"
+  ]
+ },
+ {
+  "name": "harvest",
+  "summary": "Enable Auto Harvest Shortcut",
+  "aliases": [
+   "auto",
+   "harvest",
+   "drop",
+   "items",
+   "farm",
+   "tree",
+   "fruit",
+   "ms",
+   "shortcut",
+   "enable",
+   "start",
+   "available"
+  ]
+ },
+ {
+  "name": "providers",
+  "summary": "Enable Auto Harvest Providers Shortcut",
+  "aliases": [
+   "auto",
+   "provide",
+   "chicken",
+   "cow",
+   "atm",
+   "harvest",
+   "collect",
+   "punch",
+   "farm",
+   "enable",
+   "shortcut",
+   "produc"
+  ]
+ },
+ {
+  "name": "ui",
+  "summary": "Change UI Colors Page",
+  "aliases": [
+   "change",
+   "color",
+   "colour",
+   "ui",
+   "custom",
+   "any",
+   "select",
+   "text"
+  ]
+ },
+ {
+  "name": "speed",
+  "summary": "Custom Player Speed Page",
+  "aliases": [
+   "custom",
+   "change",
+   "float",
+   "fly",
+   "player",
+   "speed",
+   "jump",
+   "fall",
+   "slow",
+   "fast",
+   "gravity",
+   "water",
+   "swim"
+  ]
+ },
+ {
+  "name": "worlds",
+  "summary": "List of Worlds Owned by You",
+  "aliases": [
+   "you",
+   "own",
+   "wl",
+   "dl",
+   "list",
+   "world",
+   "name"
+  ]
+ },
+ {
+  "name": "auto",
+  "summary": "Auto Ban/Pull On Enter World Page",
+  "aliases": [
+   "enter",
+   "join",
+   "world",
+   "ban",
+   "pull",
+   "auto",
+   "player",
+   "growid",
+   "specific",
+   "all",
+   "any"
+  ]
+ },
+ {
+  "name": "pathfind",
+  "summary": "Pathfinder Settings",
+  "aliases": [
+   "pathfind",
+   "tp",
+   "setting",
+   "teleport",
+   "delay",
+   "speed",
+   "blocks",
+   "travel"
+  ]
+ },
+ {
+  "name": "locked",
+  "summary": "Show Locked Doors Label Text",
+  "aliases": [
+   "lock",
+   "door",
+   "public",
+   "closed",
+   "private",
+   "label",
+   "text",
+   "show",
+   "red",
+   "hidden"
+  ]
+ },
+ {
+  "name": "track",
+  "summary": "Shows Dropped/Collected Items By Other Players In Console",
+  "aliases": [
+   "console",
+   "drop",
+   "collect",
+   "item",
+   "other",
+   "player",
+   "track",
+   "amount",
+   "live"
+  ]
+ },
+ {
+  "name": "calc 10+6",
+  "summary": "Calculates & Solves Math Equations",
+  "aliases": [
+   "math",
+   "calc",
+   "solve",
+   "equation",
+   "number",
+   "+",
+   "*",
+   "/",
+   "sum",
+   "divide",
+   "equal",
+   "="
+  ]
+ },
+ {
+  "name": "crime",
+  "summary": "Enables Auto Crime Shortcut",
+  "aliases": [
+   "crime",
+   "shortcut",
+   "auto",
+   "card",
+   "fight",
+   "against",
+   "wave"
+  ]
+ },
+ {
+  "name": "titles",
+  "summary": "Visual Titles Page",
+  "aliases": [
+   "title",
+   "of",
+   "legend",
+   "name",
+   "g4g",
+   "doctor",
+   "dr.",
+   "custom",
+   "flag"
+  ]
+ },
+ {
+  "name": "acc",
+  "summary": "Enable Auto Accept Access",
+  "aliases": [
+   "accept",
+   "access",
+   "wl",
+   "shortcut",
+   "acess",
+   "acess",
+   "lock",
+   "to"
+  ]
+ }
+]
