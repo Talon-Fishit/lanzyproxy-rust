@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Growtopia Dialog Preview</title>
+<style>
+  :root {
+    --bg: #0f1320;
+    --panel: #171e2e;
+    --panel-border: #2b3752;
+    --text: #e8eefc;
+    --muted: #8a97ad;
+    --dialog-bg: #22335c;
+    --dialog-bg2: #182545;
+    --dialog-border: #4a6aa8;
+    --title-bg: #2f4a80;
+    --inset: #101c36;
+    --inset-border: #0a1428;
+    --green1: #4caf50;
+    --green2: #2e7d32;
+    --green-border: #1b5e20;
+    --red1: #e05252;
+    --red2: #b03030;
+    --red-border: #7a1f1f;
+    --custom1: #5a759c;
+    --custom2: #3c5170;
+    --custom-border: #22334e;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    padding: 12px 18px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--panel-border);
+  }
+  header h1 {
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: .4px;
+  }
+  header .picker-label {
+    color: var(--muted);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  select, button {
+    font-family: inherit;
+    font-size: 13px;
+  }
+  select {
+    background: #0d1424;
+    color: var(--text);
+    border: 1px solid var(--panel-border);
+    border-radius: 6px;
+    padding: 5px 8px;
+    min-width: 190px;
+  }
+  select:focus { outline: 2px solid #3a5da8; }
+  .reset {
+    background: #24304a;
+    color: var(--text);
+    border: 1px solid var(--panel-border);
+    border-radius: 6px;
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+  .reset:hover { background: #2e3d5e; }
+  .legend {
+    margin-left: auto;
+    color: var(--muted);
+    font-size: 11px;
+  }
+  .legend b { color: #cfe0ff; font-weight: normal; }
+  main {
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) minmax(420px, 1.25fr);
+    gap: 14px;
+    padding: 14px 18px 26px;
+    align-items: start;
+  }
+  .pane {
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: 8px;
+    padding: 12px;
+  }
+  .pane h2 {
+    margin: 0 0 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--muted);
+  }
+  textarea {
+    width: 100%;
+    min-height: 460px;
+    resize: vertical;
+    background: #0b1120;
+    color: #cfe0ff;
+    border: 1px solid var(--panel-border);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 12.5px;
+    line-height: 1.55;
+    white-space: pre;
+    tab-size: 2;
+  }
+  textarea:focus { outline: 2px solid #3a5da8; }
+  .stage {
+    background:
+      radial-gradient(circle at 18% 8%, #26375e 0%, #141c30 55%, #0c1220 100%);
+    border-radius: 8px;
+    padding: 24px 18px;
+    min-height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .status {
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 11.5px;
+    min-height: 15px;
+  }
+  .status-warn { color: #e0a04b; }
+  .gt-dialog {
+    width: 100%;
+    max-width: 430px;
+    background: linear-gradient(180deg, var(--dialog-bg) 0%, var(--dialog-bg2) 100%);
+    border: 3px solid var(--dialog-border);
+    border-radius: 10px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, .55), inset 0 1px 0 rgba(255, 255, 255, .08);
+    overflow: hidden;
+  }
+  .gt-title {
+    background: linear-gradient(180deg, #3a5a96, var(--title-bg));
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 7px 10px;
+    border-bottom: 2px solid #1c2c50;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  }
+  .gt-body { padding: 8px 10px 10px; }
+  .gt-row { margin: 0; }
+  .gt-label {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 3px 2px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .45);
+  }
+  .gt-custom-label {
+    background: rgba(255, 255, 255, .045);
+    border-left: 3px solid var(--dialog-border);
+    border-radius: 3px;
+    padding-left: 6px;
+  }
+  .gt-textbox {
+    background: var(--inset);
+    border: 1px solid var(--inset-border);
+    border-radius: 4px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, .55);
+    color: #cfe0ff;
+    font-size: 13px;
+    padding: 4px 7px;
+    margin: 2px 0 3px;
+  }
+  .gt-custom-textbox { border-style: dashed; border-color: #31456e; }
+  .gt-smalltext {
+    color: var(--muted);
+    font-size: 12px;
+    padding: 2px;
+  }
+  .gt-spacer-small { height: 6px; }
+  .gt-spacer-medium { height: 14px; }
+  .gt-spacer-large { height: 26px; }
+  .gt-break {
+    height: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+    margin-bottom: 2px;
+  }
+  .gt-margin { padding-left: 2px; padding-right: 2px; }
+  .gt-button {
+    display: inline-block;
+    background: linear-gradient(180deg, var(--green1), var(--green2));
+    border: 2px solid var(--green-border);
+    border-radius: 999px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 4px 16px;
+    margin: 3px 4px 3px 0;
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+    box-shadow: 0 2px 0 var(--green-border), 0 3px 6px rgba(0, 0, 0, .35);
+    text-decoration: none;
+  }
+  .gt-button:hover { filter: brightness(1.12); }
+  .gt-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 0 var(--green-border), 0 2px 3px rgba(0, 0, 0, .35);
+  }
+  .gt-button.toggle-on {
+    background: linear-gradient(180deg, #5ad05a, #2e9d32);
+    border-color: var(--green-border);
+  }
+  .gt-button.toggle-off {
+    background: linear-gradient(180deg, #ef6a6a, #c23a3a);
+    border-color: var(--red-border);
+    box-shadow: 0 2px 0 var(--red-border), 0 3px 6px rgba(0, 0, 0, .35);
+  }
+  .gt-custom-button {
+    display: inline-block;
+    background: linear-gradient(180deg, var(--custom1), var(--custom2));
+    border: 2px solid var(--custom-border);
+    border-radius: 999px;
+    color: #eaf0ff;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 4px 16px;
+    margin: 3px 4px 3px 0;
+    cursor: default;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+    box-shadow: 0 2px 0 var(--custom-border), 0 3px 6px rgba(0, 0, 0, .3);
+  }
+  .gt-button .item-count {
+    font-size: 11px;
+    font-weight: normal;
+    margin-left: 7px;
+    padding: 0 6px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, .28);
+  }
+  .gt-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 22px;
+    height: 22px;
+    padding: 0 4px;
+    margin-right: 6px;
+    vertical-align: middle;
+    border: 1px dashed #6a7fa8;
+    border-radius: 4px;
+    background: #1a2742;
+    color: #9db4dd;
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 8px;
+    line-height: 1;
+    max-width: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .gt-icon.gt-round { border-radius: 50%; min-width: 24px; width: 24px; }
+  .gt-checkrow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 3px 2px;
+  }
+  .gt-checkbox {
+    flex: 0 0 auto;
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--dialog-border);
+    border-radius: 3px;
+    background: var(--inset);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .55);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  .gt-checkbox.is-checked {
+    color: #5ad05a;
+    border-color: #2e9d32;
+  }
+  .gt-checktext { color: #fff; font-size: 13px; }
+  .gt-chiprow { padding: 2px 0; }
+  .gt-chip {
+    display: inline-block;
+    background: #1a2742;
+    border: 1px solid #3a4d78;
+    border-radius: 999px;
+    padding: 2px 10px;
+    margin: 2px 3px 2px 0;
+    font-size: 11px;
+    color: #cfe0ff;
+  }
+  .gt-input {
+    width: 100%;
+    background: var(--inset);
+    border: 1px solid var(--inset-border);
+    border-radius: 4px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, .55);
+    color: #e8eefc;
+    font-size: 13px;
+    padding: 5px 7px;
+    margin: 2px 0 3px;
+    font-family: inherit;
+  }
+  .gt-input:focus { outline: 2px solid #3a5da8; }
+  .gt-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 2px;
+  }
+  .gt-player-small { gap: 8px; padding: 2px; }
+  .gt-avatar {
+    flex: 0 0 auto;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #3a5a96, var(--title-bg));
+    border: 1px solid var(--dialog-border);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+  }
+  .gt-player-small .gt-avatar {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+  .gt-pname { display: block; color: #fff; font-weight: bold; font-size: 13px; }
+  .gt-player-small .gt-pname { font-size: 12px; }
+  .gt-plevel { display: block; color: var(--muted); font-size: 11px; }
+  .gt-puzzle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px dashed var(--dialog-border);
+    border-radius: 6px;
+    padding: 10px;
+    margin: 2px 0;
+  }
+  .gt-puzzle-title { color: #fff; font-size: 12px; font-weight: bold; }
+  .gt-puzzle-sub { color: var(--muted); font-size: 11px; }
+  .gt-keyshare {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 3px 2px;
+  }
+  .gt-keytitle { flex: 1 1 auto; color: #fff; font-size: 13px; }
+  .gt-keyshare .gt-button { margin: 0; }
+  .gt-btnlist {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px 0;
+  }
+  .gt-quickexit { text-align: right; padding: 2px; }
+  .gt-quickexit-link {
+    color: var(--muted);
+    font-size: 12px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer;
+  }
+  .gt-quickexit-link:hover { color: #e8eefc; }
+  .gt-word {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    color: #cfe0ff;
+    background: var(--inset);
+    border: 1px dashed #31456e;
+    border-radius: 6px;
+    padding: 8px 6px 8px 14px;
+    margin: 3px 0;
+  }
+  .gt-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 10px 11px;
+    border-top: 1px solid rgba(255, 255, 255, .09);
+    background: rgba(0, 0, 0, .14);
+  }
+  .gt-unknown { color: #e0a04b; font-size: 12px; font-style: italic; padding: 2px; }
+  .gt-align-left { text-align: left; }
+  .gt-align-center { text-align: center; }
+  .gt-align-right { text-align: right; }
+  @media (max-width: 860px) {
+    main { grid-template-columns: 1fr; }
+    .legend { margin-left: 0; width: 100%; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Growtopia Dialog Preview</h1>
+  <label class="picker-label">Dialog
+    <select id="picker"></select>
+  </label>
+  <button class="reset" id="reset" type="button">Reset markup</button>
+  <span class="legend">
+    <b>`2</b> green · <b>`4</b> red · <b>`9</b> blue · <b>`w</b> white · <b>`#</b> purple · <b>``</b> reset
+  </span>
+</header>
+<main>
+  <section class="pane">
+    <h2>Markup</h2>
+    <textarea id="markup" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off"></textarea>
+  </section>
+  <section class="pane">
+    <h2>Rendered</h2>
+    <div class="stage" id="render"></div>
+    <div class="status" id="status"></div>
+  </section>
+</main>
+
+<script type="text/x-markup" id="mk-lanzy_commands">add_label|`wLanzy Commands|1|100|
+add_smalltext|Page 1 of 2 - showing nine commands|1|
+add_spacer|small|
+add_label|`w/speed|0|100|
+add_label|`w/jump|0|100|
+add_label|`w/gravity|0|100|
+add_label|`w/fall|0|100|
+add_label|`w/water|0|100|
+add_label|`w/fly|0|100|
+add_label|`w/noclip|0|100|
+add_label|`w/esp|0|100|
+add_label|`w/roulette|0|100|
+add_spacer|medium|
+add_smalltext|`wTotal: 18 commands|1|
+add_button|next|`2Next page|0|0|0|
+end_dialog|lanzy_commands|Next|Close|</script>
+
+<script type="text/x-markup" id="mk-lanzy_settings">add_label|`wProxy|0|35|
+add_textbox|127.0.0.1:8080|0|
+add_label|`wUpstream|0|35|
+add_textbox|growtopia1.com:443|0|
+add_spacer|small|
+add_smalltext|`wAutosave: `2ON|0|
+add_spacer|medium|
+add_button|connect|`wConnect|0|0|0|
+add_button|save|`wSave|0|0|0|
+add_button|reset|`wReset|0|0|0|
+end_dialog|lanzy_settings|Save|Cancel|</script>
+
+<script type="text/x-markup" id="mk-lanzy_speed">add_label|`wSpeed|0|40|
+add_textbox|1.5x|0|
+add_label|`wJump|0|40|
+add_textbox|1.2x|0|
+add_label|`wGravity|0|40|
+add_textbox|1.0x|0|
+add_label|`wFall|0|40|
+add_textbox|1.0x|0|
+add_label|`wWater|0|40|
+add_textbox|1.0x|0|
+add_spacer|medium|
+add_label|`wSpeed hack|0|60|
+add_button|speed_toggle|`2ON|0|0|0|
+add_label|`wJump hack|0|60|
+add_button|jump_toggle|`4OFF|0|0|0|
+end_dialog|lanzy_speed|OK|Cancel|</script>
+
+<script type="text/x-markup" id="mk-lanzy_clothes">add_label|`wActive clothes|0|100|
+add_textbox|Red Suit|0|
+add_smalltext|Presets|0|
+add_button|casual|`wCasual|0|3338|1|
+add_button|formal|`wFormal|0|3339|1|
+add_button|party|`wParty|0|3340|1|
+add_button|swim|`wSwim|0|3341|1|
+end_dialog|lanzy_clothes|OK|Cancel|</script>
+
+<script type="text/x-markup" id="mk-lanzy_roulette">add_label|`wInterval|0|40|
+add_textbox|5s|0|
+add_spacer|small|
+add_label|`wAuto|0|40|
+add_button|auto_toggle|`2ON|0|0|0|
+add_label|`wREAL|0|40|
+add_button|real_toggle|`2ON|0|0|0|
+add_label|`wFAKE|0|40|
+add_button|fake_toggle|`4OFF|0|0|0|
+add_label|`wREME|0|40|
+add_button|reme_toggle|`4OFF|0|0|0|
+add_spacer|medium|
+add_smalltext|`wLast six spins|0|
+end_dialog|lanzy_roulette|Spin|Close|</script>
+
+<script type="text/x-markup" id="mk-lanzy_extras">add_label|`wLanzy Extras|1|100|
+add_smalltext|Every remaining directive, one row each|1|
+add_spacer|small|
+add_custom_margin|8|4|
+add_custom_label|`#Custom label, accent bar on the left|0|80|
+add_label_with_icon|`9Label with icon|0|80|world_lock|
+add_checkbox|`wEnable feature|1|
+add_checkicon|`wChecked with icon|0|star|
+add_custom_break|
+add_custom_textbox|custom textbox, dashed border|0|
+add_label_with_icon_button|extras_btn|`wIcon button|medal_1|
+add_label_with_icon_button_list|a,b,c|`wAlpha,`wBeta,`wGamma|crown_1,crown_2,crown_3|
+add_button_with_icon|icon_btn|`wButton with icon|0|3338|1|gem_1|
+add_friend_image_label_button|friend_1|`wAdd friend|friend_face|
+add_item_picker|`wPick an item|1,2,18,242|
+add_text_input|nickname|`wLanzy|
+add_text_input_password|secret|hunter2|
+add_url_button|https://example.com|`9Open website|
+add_player_info|Lanzy|55|
+add_player_info_small|Lanzy|
+add_word|`wTREASURE|
+add_puzzle_captcha|
+add_key_share|`wShare this key|
+add_custom_button|`wCustom button|1|80|
+add_quick_exit|
+end_dialog|lanzy_extras|Got it|Close|</script>
+
+<script>
+(function () {
+  var COLOR_CODES = {
+    '2': '#4cd94c',
+    '4': '#ff5a5a',
+    '9': '#5a8cff',
+    'w': '#ffffff',
+    '#': '#d07ef0'
+  };
+  var KNOWN = {
+    add_label: true,
+    add_textbox: true,
+    add_smalltext: true,
+    add_spacer: true,
+    add_button: true,
+    add_button_with_icon: true,
+    add_checkbox: true,
+    add_checkicon: true,
+    add_custom_label: true,
+    add_custom_button: true,
+    add_custom_break: true,
+    add_custom_margin: true,
+    add_custom_textbox: true,
+    add_friend_image_label_button: true,
+    add_item_picker: true,
+    add_key_share: true,
+    add_label_with_icon: true,
+    add_label_with_icon_button: true,
+    add_label_with_icon_button_list: true,
+    add_player_info: true,
+    add_player_info_small: true,
+    add_puzzle_captcha: true,
+    add_quick_exit: true,
+    add_text_input: true,
+    add_text_input_password: true,
+    add_url_button: true,
+    add_word: true,
+    end_dialog: true
+  };
+  var DIALOG_IDS = ['lanzy_commands', 'lanzy_settings', 'lanzy_speed', 'lanzy_clothes', 'lanzy_roulette', 'lanzy_extras'];
+  var ROULETTE_SPINS = 6;
+  var ROULETTE_SPIN_VALUES = ['123456', '654321', '111222', '333444', '555666', '777888'];
+
+  function rouletteMarkup() {
+    var lines = [
+      'add_label|`wInterval|0|40|',
+      'add_textbox|5s|0|',
+      'add_spacer|small|',
+      'add_label|`wAuto|0|40|',
+      'add_button|auto_toggle|`2ON|0|0|0|',
+      'add_label|`wREAL|0|40|',
+      'add_button|real_toggle|`2ON|0|0|0|',
+      'add_label|`wFAKE|0|40|',
+      'add_button|fake_toggle|`4OFF|0|0|0|',
+      'add_label|`wREME|0|40|',
+      'add_button|reme_toggle|`4OFF|0|0|0|',
+      'add_spacer|medium|',
+      'add_smalltext|`wLast six spins|0|'
+    ];
+    for (var i = 0; i < ROULETTE_SPINS; i++) {
+      lines.push('add_smalltext|' + (i + 1) + '. ' + ROULETTE_SPIN_VALUES[i] + '|0|');
+    }
+    lines.push('end_dialog|lanzy_roulette|Spin|Close|');
+    return lines.join('\n');
+  }
+
+  var picker = document.getElementById('picker');
+  var markupBox = document.getElementById('markup');
+  var renderBox = document.getElementById('render');
+  var statusBox = document.getElementById('status');
+  var resetBtn = document.getElementById('reset');
+
+  function escapeHtml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function escapeAttr(s) {
+    return escapeHtml(s).replace(/"/g, '&quot;');
+  }
+
+  function stripCodes(s) {
+    return String(s).replace(/``/g, '').replace(/`[249w#]/g, '');
+  }
+
+  function colorize(text) {
+    var out = '';
+    var open = false;
+    var s = String(text);
+    var i = 0;
+    while (i < s.length) {
+      var ch = s.charAt(i);
+      if (ch === '`') {
+        var next = s.charAt(i + 1);
+        if (next === '`') {
+          if (open) { out += '</span>'; open = false; }
+          i += 2;
+          continue;
+        }
+        if (next && COLOR_CODES[next]) {
+          if (open) out += '</span>';
+          out += '<span style="color:' + COLOR_CODES[next] + '">';
+          open = true;
+          i += 2;
+          continue;
+        }
+        out += '`';
+        i += 1;
+        continue;
+      }
+      out += escapeHtml(ch);
+      i += 1;
+    }
+    if (open) out += '</span>';
+    return out;
+  }
+
+  function parseLine(line) {
+    var parts = String(line).split('|');
+    while (parts.length > 0 && parts[parts.length - 1] === '') parts.pop();
+    var name = parts.length ? parts.shift().trim().toLowerCase() : '';
+    return { name: name, args: parts };
+  }
+
+  function alignClass(a) {
+    var v = String(a == null ? '' : a).trim().toLowerCase();
+    if (v === '1' || v === 'center' || v === 'centre' || v === 'c') return 'gt-align-center';
+    if (v === '2' || v === 'right' || v === 'r') return 'gt-align-right';
+    return 'gt-align-left';
+  }
+
+  function widthStyle(a) {
+    var width = parseInt(a, 10);
+    return isNaN(width) ? '' : ' style="width:' + Math.max(0, Math.min(100, width)) + '%;"';
+  }
+
+  function iconPh(name, extraClass) {
+    var t = String(name == null ? '' : name).trim();
+    var cls = 'gt-icon' + (extraClass ? ' ' + extraClass : '');
+    return '<span class="' + cls + '" title="icon: ' + escapeAttr(t || '?') + '">' + escapeHtml(t || '?') + '</span>';
+  }
+
+  function isChecked(v) {
+    return /^(1|true|on|yes)$/i.test(String(v == null ? '' : v).trim());
+  }
+
+  function splitList(v) {
+    return String(v == null ? '' : v).split(',').map(function (s) { return s.trim(); }).filter(function (s) { return s.length > 0; });
+  }
+
+  function clampPx(v, maxPx) {
+    var n = parseInt(v, 10);
+    if (isNaN(n)) n = 0;
+    return Math.max(0, Math.min(maxPx, n));
+  }
+
+  function itemBadge(itemId, itemCount) {
+    var id = parseInt(itemId, 10);
+    var count = parseInt(itemCount, 10);
+    if (isNaN(id) || id === 0) return '';
+    return '<span class="item-count">' + (isNaN(count) ? 1 : count) + '</span>';
+  }
+
+  function buttonClass(label) {
+    var plain = stripCodes(label).trim().toLowerCase();
+    var cls = 'gt-button';
+    if (plain === 'on') cls += ' toggle-on';
+    else if (plain === 'off') cls += ' toggle-off';
+    return cls;
+  }
+
+  function renderRow(r) {
+    var a = r.args;
+    if (r.name === 'add_label') {
+      return '<div class="gt-row gt-label ' + alignClass(a[1]) + '"' + widthStyle(a[2]) + '>' + colorize(a[0] || '') + '</div>';
+    }
+    if (r.name === 'add_textbox') {
+      return '<div class="gt-row gt-textbox ' + alignClass(a[1]) + '">' + colorize(a[0] || '') + '</div>';
+    }
+    if (r.name === 'add_smalltext') {
+      return '<div class="gt-row gt-smalltext ' + alignClass(a[1]) + '">' + colorize(a[0] || '') + '</div>';
+    }
+    if (r.name === 'add_spacer') {
+      var size = String(a[0] || '').trim().toLowerCase();
+      var cls = size === 'large' ? 'gt-spacer-large' : (size === 'medium' ? 'gt-spacer-medium' : 'gt-spacer-small');
+      return '<div class="gt-row ' + cls + '"></div>';
+    }
+    if (r.name === 'add_button') {
+      var btnName = a[0] || '';
+      var label = a[1] || '';
+      var noflags = a[2] || '0';
+      var itemId = parseInt(a[3], 10);
+      var tip = 'name: ' + btnName + ' | noflags: ' + noflags + ' | item: ' + (isNaN(itemId) ? 0 : itemId);
+      return '<div class="gt-row"><span class="' + buttonClass(label) + '" title="' + escapeAttr(tip) + '">' + colorize(label) + itemBadge(a[3], a[4]) + '</span></div>';
+    }
+    if (r.name === 'add_button_with_icon') {
+      var biName = a[0] || '';
+      var biLabel = a[1] || '';
+      var biNoflags = a[2] || '0';
+      var biItemId = parseInt(a[3], 10);
+      var biTip = 'name: ' + biName + ' | noflags: ' + biNoflags + ' | item: ' + (isNaN(biItemId) ? 0 : biItemId) + ' | icon: ' + (a[5] || '');
+      return '<div class="gt-row"><span class="' + buttonClass(biLabel) + '" title="' + escapeAttr(biTip) + '">' + iconPh(a[5]) + colorize(biLabel) + itemBadge(a[3], a[4]) + '</span></div>';
+    }
+    if (r.name === 'add_checkbox' || r.name === 'add_checkicon') {
+      var checked = isChecked(a[1]);
+      var icon = r.name === 'add_checkicon' ? iconPh(a[2]) : '';
+      return '<div class="gt-row gt-checkrow"><span class="gt-checkbox' + (checked ? ' is-checked' : '') + '">✓</span>' + icon + '<span class="gt-checktext">' + colorize(a[0] || '') + '</span></div>';
+    }
+    if (r.name === 'add_custom_label') {
+      return '<div class="gt-row gt-label gt-custom-label ' + alignClass(a[1]) + '"' + widthStyle(a[2]) + '>' + colorize(a[0] || '') + '</div>';
+    }
+    if (r.name === 'add_custom_button') {
+      return '<div class="gt-row ' + alignClass(a[1]) + '"><span class="gt-custom-button"' + widthStyle(a[2]) + '>' + colorize(a[0] || '') + '</span></div>';
+    }
+    if (r.name === 'add_custom_break') {
+      return '<div class="gt-row gt-break"></div>';
+    }
+    if (r.name === 'add_custom_margin') {
+      var mt = clampPx(a[0], 120);
+      var mb = clampPx(a[1], 120);
+      return '<div class="gt-row gt-margin" style="padding-top:' + mt + 'px;padding-bottom:' + mb + 'px"></div>';
+    }
+    if (r.name === 'add_custom_textbox') {
+      return '<div class="gt-row gt-textbox gt-custom-textbox ' + alignClass(a[1]) + '">' + colorize(a[0] || '') + '</div>';
+    }
+    if (r.name === 'add_friend_image_label_button') {
+      var fiName = a[0] || '';
+      return '<div class="gt-row"><span class="gt-button" title="name: ' + escapeAttr(fiName) + '">' + iconPh(a[2], 'gt-round') + colorize(a[1] || '') + '</span></div>';
+    }
+    if (r.name === 'add_item_picker') {
+      var chips = splitList(a[1]).map(function (item) {
+        return '<span class="gt-chip">' + escapeHtml(item) + '</span>';
+      }).join('');
+      return '<div class="gt-row"><div class="gt-smalltext">' + colorize(a[0] || '') + '</div><div class="gt-chiprow">' + (chips || '<span class="gt-chip">(empty)</span>') + '</div></div>';
+    }
+    if (r.name === 'add_key_share') {
+      return '<div class="gt-row gt-keyshare">' + iconPh('key') + '<span class="gt-keytitle">' + colorize(a[0] || '') + '</span><span class="gt-button" title="share key">Share</span></div>';
+    }
+    if (r.name === 'add_label_with_icon') {
+      return '<div class="gt-row gt-label ' + alignClass(a[1]) + '"' + widthStyle(a[2]) + '>' + iconPh(a[3]) + colorize(a[0] || '') + '</div>';
+    }
+    if (r.name === 'add_label_with_icon_button') {
+      var lbName = a[0] || '';
+      return '<div class="gt-row"><span class="gt-button" title="name: ' + escapeAttr(lbName) + '">' + iconPh(a[2]) + colorize(a[1] || '') + '</span></div>';
+    }
+    if (r.name === 'add_label_with_icon_button_list') {
+      var names = splitList(a[0]);
+      var labels = splitList(a[1]);
+      var icons = splitList(a[2]);
+      var count = Math.max(names.length, labels.length, icons.length);
+      var out = '<div class="gt-row gt-btnlist">';
+      for (var li = 0; li < count; li++) {
+        out += '<span class="gt-button" title="name: ' + escapeAttr(names[li] || '') + '">' + iconPh(icons[li]) + colorize(labels[li] || '') + '</span>';
+      }
+      return out + '</div>';
+    }
+    if (r.name === 'add_player_info' || r.name === 'add_player_info_small') {
+      var small = r.name === 'add_player_info_small';
+      var pName = a[0] || '';
+      var initial = stripCodes(pName).trim().charAt(0).toUpperCase() || '?';
+      var level = small ? '' : '<span class="gt-plevel">Level ' + escapeHtml(String(a[1] == null ? '?' : a[1])) + '</span>';
+      return '<div class="gt-row gt-player' + (small ? ' gt-player-small' : '') + '"><span class="gt-avatar">' + escapeHtml(initial) + '</span><span><span class="gt-pname">' + colorize(pName) + '</span>' + level + '</span></div>';
+    }
+    if (r.name === 'add_puzzle_captcha') {
+      return '<div class="gt-row gt-puzzle">' + iconPh('puzzle') + '<span><span class="gt-puzzle-title">Puzzle captcha</span><br><span class="gt-puzzle-sub">solve the puzzle to continue</span></span></div>';
+    }
+    if (r.name === 'add_quick_exit') {
+      return '<div class="gt-row gt-quickexit"><span class="gt-quickexit-link" title="close this dialog">× quick exit</span></div>';
+    }
+    if (r.name === 'add_text_input' || r.name === 'add_text_input_password') {
+      var tName = escapeAttr(a[0] || '');
+      var tDefault = escapeAttr(a[1] || '');
+      var tType = r.name === 'add_text_input_password' ? 'password' : 'text';
+      return '<div class="gt-row"><input class="gt-input" type="' + tType + '" name="' + tName + '" value="' + tDefault + '" spellcheck="false" autocomplete="off" aria-label="' + tName + '"></div>';
+    }
+    if (r.name === 'add_url_button') {
+      var url = a[0] || '';
+      return '<div class="gt-row"><a class="gt-button gt-url" href="' + escapeAttr(url) + '" target="_blank" rel="noopener noreferrer" title="' + escapeAttr(url) + '">' + colorize(a[1] || url) + '</a></div>';
+    }
+    if (r.name === 'add_word') {
+      return '<div class="gt-row gt-word">' + colorize(a[0] || '') + '</div>';
+    }
+    return '<div class="gt-row gt-unknown">unknown directive: ' + escapeHtml(r.name) + '</div>';
+  }
+
+  function renderDialog(markup) {
+    var lines = String(markup).split(/\r?\n/);
+    var rows = [];
+    var dialogName = '';
+    var footer = [];
+    var unknown = [];
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i].trim();
+      if (!line || line.charAt(0) === '#') continue;
+      var p = parseLine(line);
+      if (!p.name) continue;
+      if (p.name === 'end_dialog') {
+        dialogName = p.args[0] || '';
+        footer = [p.args[1] || '', p.args[2] || ''];
+        continue;
+      }
+      if (!KNOWN[p.name]) unknown.push(p.name);
+      rows.push(p);
+    }
+    var html = '<div class="gt-dialog">';
+    html += '<div class="gt-title">' + escapeHtml(dialogName || '(unnamed dialog)') + '</div>';
+    html += '<div class="gt-body">';
+    for (var j = 0; j < rows.length; j++) html += renderRow(rows[j]);
+    html += '</div>';
+    if (footer[0] || footer[1]) {
+      html += '<div class="gt-footer">';
+      if (footer[0]) html += '<span class="gt-button">' + colorize(footer[0]) + '</span>';
+      if (footer[1]) html += '<span class="gt-button">' + colorize(footer[1]) + '</span>';
+      html += '</div>';
+    }
+    html += '</div>';
+    if (unknown.length) {
+      statusBox.textContent = 'Unknown directive(s): ' + unknown.join(', ');
+      statusBox.className = 'status status-warn';
+    } else {
+      statusBox.textContent = rows.length + ' directive' + (rows.length === 1 ? '' : 's');
+      statusBox.className = 'status';
+    }
+    return html;
+  }
+
+  var samples = {};
+  DIALOG_IDS.forEach(function (id) {
+    var el = document.getElementById('mk-' + id);
+    samples[id] = el ? el.textContent.replace(/^\s+|\s+$/g, '') : '';
+  });
+  samples.lanzy_roulette = rouletteMarkup();
+
+  DIALOG_IDS.forEach(function (id) {
+    var opt = document.createElement('option');
+    opt.value = id;
+    opt.textContent = id;
+    picker.appendChild(opt);
+  });
+
+  function render() {
+    renderBox.innerHTML = renderDialog(markupBox.value);
+    var edited = markupBox.value !== (samples[picker.value] || '');
+    if (edited) statusBox.textContent += ' · edited';
+  }
+
+  function loadDialog(id) {
+    markupBox.value = samples[id] || '';
+    render();
+  }
+
+  picker.addEventListener('change', function () { loadDialog(picker.value); });
+  markupBox.addEventListener('input', render);
+  resetBtn.addEventListener('click', function () { loadDialog(picker.value); });
+
+  loadDialog(DIALOG_IDS[0]);
+})();
+</script>
+</body>
+</html>
